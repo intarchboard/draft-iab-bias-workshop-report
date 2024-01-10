@@ -19,12 +19,12 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "IAB Barriers to Internet Access of Services (BIAS) Workshop Report"
+abbrev: "BIAS Workshop Report"
 category: info
 
-docname: draft-todo-yourname-protocol-latest
-submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
+docname: draft-iab-bias-workshop-report
+submissiontype: IAB
 number:
 date:
 consensus: true
@@ -65,6 +65,17 @@ TODO Abstract
 
 TODO Introduction
 
+# Session 1: Community Networks
+
+TODO Session 1
+
+# Session 2: Digital Divide
+
+TODO Session 2
+
+# Session 3: Censorship
+
+TODO Session 3
 
 # Conventions and Definitions
 
@@ -82,6 +93,18 @@ This document has no IANA actions.
 
 
 --- back
+
+# Position Papers
+
+TODO Position Papers
+
+# Workshop Participants
+
+TODO Workshop Participants
+
+# Workshop Program Committee
+
+The workshop program committee members were Christopher Wood (IAB, Cloudflare), Dhruv Dhody (IAB, Huawei), Mallory Knodel (IAB, Center for Democracy and Technology), Mirja Kühlewind (IAB, Ericsson), and Tommy Pauly (IAB, Apple).
 
 # Acknowledgments
 {:numbered="false"}
