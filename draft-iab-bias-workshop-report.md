@@ -9,25 +9,19 @@ number:
 date:
 consensus: true
 v: 3
-# area: AREA
-# workgroup: WG Working Group
 keyword:
- - next generation
- - unicorn
- - sparkling distributed ledger
+ - Internet Access
+ - Censorship
+ - community networks
+ - digital divide
 venue:
-#  group: WG
-#  type: Working Group
-#  mail: WG@example.com
-#  arch: https://example.com/WG
   github: "intarchboard/draft-iab-bias-workshop-report"
   latest: "https://intarchboard.github.io/draft-iab-bias-workshop-report/draft-iab-bias-workshop-report.html"
 
 author:
  -
-    fullname: "Cindy Morgan"
-    organization: Your Organization Here
-    email: "cmorgan@amsl.com"
+    fullname: "Mirja Kühlewind"
+    email: "ietf@kuehlewind.net"
 
 normative:
 
@@ -36,12 +30,14 @@ informative:
 
 --- abstract
 
-TODO Abstract
+The “Barriers for Internet Access of Services (Bias)” workshop was convened by the Internet Architecture Board (IAB) from Januar 15-17, 2024 as a three-day online meeting.  Based on the submitted position papers, the workshop covered three areas of interest: the role of community networks to Internet Access of Services; reports and comments on the observed digital divide; and measurements of censorship and censorship circumvention.
+This report summarizes the workshop's discussion and serves a reference for reports on the current barries to Internet Access.
 
+Note that this document is a report on the proceedings of the workshop.  The views and positions documented in this report are those of the expressed during the workshop by participants and do not necessarily reflect IAB views and positions.
 
 --- middle
 
-# Introduction
+# Introduction and Workshop Scope
 
 TODO Introduction
 
@@ -57,19 +53,7 @@ TODO Session 2
 
 TODO Session 3
 
-# Conventions and Definitions
-
-{::boilerplate bcp14-tagged}
-
-
-# Security Considerations
-
-TODO Security
-
-
-# IANA Considerations
-
-This document has no IANA actions.
+# Conclusions
 
 
 --- back
