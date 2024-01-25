@@ -49,7 +49,7 @@ informative:
     date: January 2024     
   BENSON:
     target: https://www.ietf.org/slides/slides-biasws-a-c-in-cdn-access-service-to-and-from-the-internet-at-cost-for-community-networks-00.pdf
-    title: A ‘C’ in CDN: Access service to and from the Internet at cost for community networks
+    title: A ‘C’ in CDN - Access service to and from the Internet at cost for community networks
     author:
       -
         ins:  T. A. Benson
@@ -60,7 +60,7 @@ informative:
     date: January 2024    
   HU:
     target: https://www.ietf.org/slides/slides-biasws-closing-the-performance-and-management-gaps-with-satellite-internet-challenges-approaches-and-future-directions-01.pdf
-    title: Closing the Performance and Management Gaps with Satellite Internet: Challenges, Approaches, and Future Directions
+    title: Closing the Performance and Management Gaps with Satellite Internet - Challenges, Approaches, and Future Directions
     author:
       -
         ins:  P. Hu
@@ -68,7 +68,7 @@ informative:
     date: January 2024
   RENNO:
     target: https://www.ietf.org/slides/slides-biasws-position-paper-by-raquel-renno-01.pdf
-    title: Maximising Connectivity: The Spectrum's Vital Role in Technology Access
+    title: Maximising Connectivity - The Spectrum's Vital Role in Technology Access
     author:
       -
         ins:  R. Rennó
