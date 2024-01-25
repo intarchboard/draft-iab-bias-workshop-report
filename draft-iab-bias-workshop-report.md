@@ -138,7 +138,11 @@ TODO Session 2
 
 ## Session 3: Censorship - Measurements
 
-TODO Session 3
+This session focused on reports of censorship as observed during recent years in different parts of the world, as well as on the use of and expectation on censorship circumvention tools, mainly use of secure VPN services.
+
+The censorship reports, with a focus on Asia, and specifically India, as well as Russia, as an example where censorship changes significantly recently, discussed the legal frameworks and court acts that put legal obligation on regional network providers to block traffic and also measurements to validate the blocking as well as analyses how blocking is implemented, i.e. which protocols are used but also which kind of devices are used to configure the blocking rules and where are they deployed.
+
+Further, the possibility and prevalence for using VPNs for circumvention has been discussed including user expectation and an analysis of security short-comings of commmercial VPN services. This anaylsis has shown various problems that lead to data leaks, not uploading user expectations especially when used in authoritan regimes for censorship circumvention or private communication.
 
 ## Conclusions
 
