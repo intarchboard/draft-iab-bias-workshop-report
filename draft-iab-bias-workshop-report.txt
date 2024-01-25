@@ -3,9 +3,11 @@
 
 
 Network Working Group                                       M. Kühlewind
-Internet-Draft                                           11 January 2024
-Intended status: Informational                                          
-Expires: 14 July 2024
+Internet-Draft                                                          
+Intended status: Informational                                  D. Dhody
+Expires: 28 July 2024                                                   
+                                                               M. Knodel
+                                                         25 January 2024
 
 
    IAB Barriers to Internet Access of Services (BIAS) Workshop Report
@@ -14,19 +16,19 @@ Expires: 14 July 2024
 Abstract
 
    The “Barriers for Internet Access of Services (Bias)” workshop was
-   convened by the Internet Architecture Board (IAB) from Januar 15-17,
+   convened by the Internet Architecture Board (IAB) from January 15-17,
    2024 as a three-day online meeting.  Based on the submitted position
    papers, the workshop covered three areas of interest: the role of
-   community networks to Internet Access of Services; reports and
+   community networks in Internet Access of Services; reports and
    comments on the observed digital divide; and measurements of
    censorship and censorship circumvention.  This report summarizes the
-   workshop's discussion and serves a reference for reports on the
-   current barries to Internet Access.
+   workshop's discussion and serves as a reference for reports on the
+   current barriers to Internet Access.
 
    Note that this document is a report on the proceedings of the
-   workshop.  The views and positions documented in this report are
-   those of the expressed during the workshop by participants and do not
-   necessarily reflect IAB views and positions.
+   workshop.  The views and positions documented in this report were
+   expressed during the workshop by participants and do not necessarily
+   reflect IAB's views and positions.
 
 About This Document
 
@@ -56,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 14 July 2024.
+   This Internet-Draft will expire on 28 July 2024.
 
 Copyright Notice
 
@@ -71,38 +73,242 @@ Copyright Notice
 
 Table of Contents
 
-   1.  Introduction and Workshop Scope
-   2.  Session 1: Community Networks
-   3.  Session 2: Digital Divide
-   4.  Session 3: Censorship
-   5.  Conclusions
+   1.  Introduction
+     1.1.  About this workshop report content
+   2.  Workshop Scope and Discussion
+     2.1.  Session 1: Community Networks - Their Role in Internet
+           Access of Services
+       2.1.1.  Community Networks and the Quest for Quality
+       2.1.2.  A ‘C’ in CDN: Access service to and from the Internet
+               at cost for community networks
+       2.1.3.  Closing the Performance and Management Gaps with
+               Satellite Internet: Challenges, Approaches, and Future
+               Directions
+       2.1.4.  Maximising Connectivity: The Spectrum’s Vital Role in
+               Technology Access
+       2.1.5.  Discussion
+     2.2.  Session 2: Digital Divide - Reports and Comments
+     2.3.  Session 3: Censorship - Measurements
+     2.4.  Conclusions
+   3.  Informative References
    Appendix A.  Position Papers
    Appendix B.  Workshop Participants
    Appendix C.  Workshop Program Committee
    Acknowledgments
-   Author's Address
+   Authors' Addresses
 
-1.  Introduction and Workshop Scope
+1.  Introduction
 
-   TODO Introduction
+   The Internet as part of the critical infrastructure affects many
+   aspects of our society significantly, although it impacts different
+   parts of society differently.  The Internet is an important tool to
+   reach the Sustainable Development Goals (SDG) [SDG] and to globally
+   support human rights.  Consequently, the lack of meaningful access to
+   digital infrastructure and services is also a form of
+   disenfranchisement.
 
-2.  Session 1: Community Networks
+   Solely having Internet access is not enough.  At the same time as we
+   work to connect the next billion people and reduce the digital
+   divide, it is also important to understand persistent and novel
+   inequalities in the digital age when accessing content and services.
+   There are more and more barriers to meaningful access to the services
+   and applications that run on the Internet.  Even if Internet
+   connectivity is available, information and services access may remain
+   challenged and unequal.
 
-   TODO Session 1
+   This IAB workshop has aimed
 
-3.  Session 2: Digital Divide
+   *  to collect reports about barriers to accessing content and
+      services on the Internet, e.g. based on filtering, and blocking as
+      well as due to general inequality of technological capabilities,
+      like device or protocol limitations.
+
+   *  to help the Internet community get a better understanding of how
+      the Internet functions in different parts of the world and which
+      technology or techniques need to be used to gain access to
+      content.
+
+   *  to build an understanding of what “being connected” to the
+      Internet means: What is the Internet to users?  What is needed to
+      be meaningfully connected?  What are the minimum requirements to
+      be able to access certain parts of the content and services
+      provided over the Internet?
+
+1.1.  About this workshop report content
+
+   This document is a report on the proceedings of the workshop.  The
+   views and positions documented in this report are expressed during
+   the workshop by participants and do not necessarily reflect IAB views
+   and positions.
+
+   Furthermore, the content of the report comes from presentations given
+   by workshop participants and notes taken during the discussions,
+   without interpretation or validation.  Thus, the content of this
+   report follows the flow and dialogue of the workshop but does not
+   attempt to capture a consensus.
+
+2.  Workshop Scope and Discussion
+
+   The workshop was organized across three days with all-group
+   discussion slots, one per day.  The following topic areas were
+   identified and the program committee organized paper submissions into
+   three main themes for each of the three discussion slots.  During
+   each discussion, those papers were presented sequentially with open
+   discussion held at the end of each day.
+
+2.1.  Session 1: Community Networks - Their Role in Internet Access of
+      Services
+
+   The first day of the workshop focused on the role of Community
+   Networks [RFC7962] as a way to overcome the barriers to Internet
+   Access.  Community Networks are self-organized networks wholly owned
+   by the community and thus provide an alternative mechanism to bring
+   connectivity and internet services to those places that lack
+   commercial interest.
+
+   Presentations ranged from highlighting the need for measuring Quality
+   of Experience (QoE) for Community Networks, to the potential role the
+   Content Delivery Network (CDN) can play in Community Networks, to the
+   role of Satellite Networks, and finally, to the vital role of the
+   spectrum in this space.
+
+2.1.1.  Community Networks and the Quest for Quality
+
+   [MARTINEZ]
+
+2.1.2.  A ‘C’ in CDN: Access service to and from the Internet at cost
+        for community networks
+
+   [BENSON]
+
+2.1.3.  Closing the Performance and Management Gaps with Satellite
+        Internet: Challenges, Approaches, and Future Directions
+
+   [HU]
+
+2.1.4.  Maximising Connectivity: The Spectrum’s Vital Role in Technology
+        Access
+
+   [RENNO]
+
+2.1.5.  Discussion
+
+2.2.  Session 2: Digital Divide - Reports and Comments
 
    TODO Session 2
 
-4.  Session 3: Censorship
+2.3.  Session 3: Censorship - Measurements
 
-   TODO Session 3
+   This session focused on reports of censorship as observed during
+   recent years in different parts of the world, as well as on the use
+   of and expectation on censorship circumvention tools, mainly use of
+   secure VPN services.
 
-5.  Conclusions
+   The censorship reports, with a focus on Asia, and specifically India,
+   as well as Russia, as an example where censorship changes
+   significantly recently, discussed the legal frameworks and court acts
+   that put legal obligation on regional network providers to block
+   traffic and also measurements to validate the blocking as well as
+   analyses how blocking is implemented, i.e. which protocols are used
+   but also which kind of devices are used to configure the blocking
+   rules and where are they deployed.
+
+   Further, the possibility and prevalence for using VPNs for
+   circumvention has been discussed including user expectation and an
+   analysis of security short-comings of commercial VPN services.  This
+   analysis has shown various problems that lead to data leaks, not
+   upholding user expectations especially when used in authoritarian
+   regimes for censorship circumvention or private communication.
+
+2.4.  Conclusions
+
+3.  Informative References
+
+   [BENSON]   Benson, T. A. and M. Fayed, "A ‘C’ in CDN - Access service
+              to and from the Internet at cost for community networks",
+              January 2024, <https://www.ietf.org/slides/slides-biasws-
+              a-c-in-cdn-access-service-to-and-from-the-internet-at-
+              cost-for-community-networks-00.pdf>.
+
+   [HU]       Hu, P., "Closing the Performance and Management Gaps with
+              Satellite Internet - Challenges, Approaches, and Future
+              Directions", January 2024, <https://www.ietf.org/slides/
+              slides-biasws-closing-the-performance-and-management-gaps-
+              with-satellite-internet-challenges-approaches-and-future-
+              directions-01.pdf>.
+
+   [MARTINEZ] Martínez-Cervantes, L. M. and R. Guevara-Martínez,
+              "Community Networks and the Quest for Quality", January
+              2024, <https://www.ietf.org/slides/slides-biasws-
+              community-networks-and-the-quest-for-quality-00.pdf>.
+
+   [RENNO]    Rennó, R., "Maximising Connectivity - The Spectrum's Vital
+              Role in Technology Access", January 2024,
+              <https://www.ietf.org/slides/slides-biasws-position-paper-
+              by-raquel-renno-01.pdf>.
+
+   [RFC7962]  Saldana, J., Ed., Arcia-Moret, A., Braem, B.,
+              Pietrosemoli, E., Sathiaseelan, A., and M. Zennaro,
+              "Alternative Network Deployments: Taxonomy,
+              Characterization, Technologies, and Architectures",
+              RFC 7962, DOI 10.17487/RFC7962, August 2016,
+              <https://www.rfc-editor.org/rfc/rfc7962>.
+
+   [SDG]      "Sustainable Development Goals", n.d.,
+              <https://sdgs.un.org/goals>.
 
 Appendix A.  Position Papers
 
-   TODO Position Papers
+   19 position papers were submitted to the workshop call for papers. 11
+   were selected for publication.  Paper that were not published either
+   (2) only provided a very prelimited analysis of an idea that was felt
+   to incomphrehensive for discussion at the workshop, or address
+   problem that were beyond the scope as dedciated for the workshop
+   discussion by e.g. discussing cyber security threads as a barrier for
+   participation or implication of technology in regulation that impose
+   blocking.  Both of these topics pose a potential severe risk on the
+   open Internet, however, these risks might provide a high risk for all
+   Interent users but do not nessearily imply an unbalance.
+
+   All accepted papers are available at:
+   https://datatracker.ietf.org/group/biasws/materials/
+
+   This is the list of all published papers:
+
+   Commuity Networks: * L.  M.  Martínez-Cervantes, R.  Guevara-
+   Martínez: Community Networks and the Quest for Quality * T.  Benson,
+   M.  Fayed: A ‘C’ in CDN: Access service to and from the Internet for
+   community networks at-cost * P.  Hu: Closing the Performance and
+   Management Gaps with Satellite Internet: Challenges, Approaches, and
+   Future Directions * R.  Rennó: Maximising Connectivity: The
+   Spectrum's Vital Role in Technology Access
+
+   Digital Divide: * R.  Holz, N.  Nazemi, O.  Tavallaie, A.Y.  Zomaya:
+   Evidence for a digital divide?  Measuring DNS dependencies in the
+   context of the indigenous population of Australia * S.  Hussain:
+   Universal Acceptance of Domain Names and Email Addresses: A Key to
+   Digital Inclusion * R.  Habib, S.  Tanveer, A.  Inam, H.  Ahmed, A.
+   Ali, Z.A.  Uzmi, Z.A.  Qazi, I.A.  Qazi: A Framework for Improving
+   Web Affordability and Inclusiveness * J.  Ott, G.  Bartolomeo, M.M.
+   Bese, R.  Bose, M.  Bosk, D.  Guzman, L.  Kärkkäinen, M.  Kosek, N.
+   Mohan: The Internet: Only for the Fast (and Furious)? * L.Y.  Ohlsen:
+   BIAS workshop - M-Lab Position Paper submission
+
+   Censorhsip: * S.  Nurliza Samsudin: iMAP (Internet Monitoring Action
+   Project) 2023 Internet Censorship Report * G.  Grover: The
+   infrastructure of censorship in Asia * S.  Basso: How Internet
+   censorship changed in Russia during the 1st year of military conflict
+   in Ukraine
+
+   In addition to the submitted paper two invited talks were presented
+   based on published papers:
+
+   *  R.  Sundara Raman, M.  Wang, J.  Dalek, J.  Mayer, R.  Ensafi:
+      Network Measurement Methods for Locating and Examining Censorship
+      Devices
+
+   *  R.  Ramesh, A.  Vyas, R.  Ensafi: “All of them claim to be the
+      best”: A multi-perspective study of VPN users and VPN providers
 
 Appendix B.  Workshop Participants
 
@@ -119,7 +325,15 @@ Acknowledgments
 
    TODO acknowledge.
 
-Author's Address
+Authors' Addresses
 
    Mirja Kühlewind
    Email: ietf@kuehlewind.net
+
+
+   Dhruv Dhody
+   Email: dd@dhruvdhody.com
+
+
+   Mallory Knodel
+   Email: mknodel@cdt.org
