@@ -126,7 +126,7 @@ Presentations ranged from highlighting the need for measuring Quality of Experie
 
 {{HU}}
 
-### Maximising Connectivity: The Spectrum’s Vital Role in Technology Access 
+### Maximising Connectivity: The Spectrum’s Vital Role in Technology Access
 
 {{RENNO}}
 
