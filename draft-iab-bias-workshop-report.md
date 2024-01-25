@@ -22,38 +22,62 @@ author:
  -
     fullname: "Mirja Kühlewind"
     email: "ietf@kuehlewind.net"
-
+ -
+    fullname: "Dhruv Dhody"
+    email: "dd@dhruvdhody.com"
+ -
+    fullname: "Mallory Knodel"
+    email: "mknodel@cdt.org"
+ 
 normative:
 
 informative:
+  SDG:
+    target: https://sdgs.un.org/goals
+    title: Sustainable Development Goals
 
 
 --- abstract
 
-The “Barriers for Internet Access of Services (Bias)” workshop was convened by the Internet Architecture Board (IAB) from Januar 15-17, 2024 as a three-day online meeting.  Based on the submitted position papers, the workshop covered three areas of interest: the role of community networks to Internet Access of Services; reports and comments on the observed digital divide; and measurements of censorship and censorship circumvention.
-This report summarizes the workshop's discussion and serves a reference for reports on the current barries to Internet Access.
+The “Barriers for Internet Access of Services (Bias)” workshop was convened by the Internet Architecture Board (IAB) from January 15-17, 2024 as a three-day online meeting.  Based on the submitted position papers, the workshop covered three areas of interest: the role of community networks in Internet Access of Services; reports and comments on the observed digital divide; and measurements of censorship and censorship circumvention. This report summarizes the workshop's discussion and serves as a reference for reports on the current barriers to Internet Access.
 
-Note that this document is a report on the proceedings of the workshop.  The views and positions documented in this report are those of the expressed during the workshop by participants and do not necessarily reflect IAB views and positions.
+Note that this document is a report on the proceedings of the workshop.  The views and positions documented in this report were expressed during the workshop by participants and do not necessarily reflect IAB's views and positions.
 
 --- middle
 
 # Introduction and Workshop Scope
 
-TODO Introduction
+The Internet as part of the critical infrastructure affects many aspects of our society significantly, although it impacts different parts of society differently. The Internet is an important tool to reach the Sustainable Development Goals (SDG) {{SDG}} and to globally support human rights. Consequently, the lack of meaningful access to digital infrastructure and services is also a form of disenfranchisement.
 
-# Session 1: Community Networks
+Solely having Internet access is not enough. At the same time as we work to connect the next billion people and reduce the digital divide, it is also important to understand persistent and novel inequalities in the digital age when accessing content and services. There are more and more barriers to meaningful access to the services and applications that run on the Internet. Even if Internet connectivity is available, information and services access may remain challenged and unequal.
+
+This IAB workshop has aimed 
+* to collect reports about barriers to accessing content and services on the Internet, e.g. based on filtering, and blocking as well as due to general inequality of technological capabilities, like device or protocol limitations. 
+* to help the Internet community get a better understanding of how the Internet functions in different parts of the world and which technology or techniques need to be used to gain access to content. * * to build an understanding of what “being connected” to the Internet means: What is the Internet to users? What is needed to be meaningfully connected? What are the minimum requirements to be able to access certain parts of the content and services provided over the Internet?
+
+## About this workshop report content
+
+This document is a report on the proceedings of the workshop. The views and positions documented in this report are expressed during the workshop by participants and do not necessarily reflect IAB views and positions.
+
+Furthermore, the content of the report comes from presentations given by workshop participants and notes taken during the discussions, without interpretation or validation.  Thus, the content of this report follows the flow and dialogue of the workshop but does not attempt to capture a consensus.
+
+# Workshop Scope and Discussion
+
+The workshop was organized across three days with all-group discussion slots, one per day. The following topic areas were identified and the program committee organized paper submissions into three main themes for each of the three discussion slots. During each discussion, those papers were presented sequentially with open discussion held at the end of each day.
+
+## Session 1: Community Networks
 
 TODO Session 1
 
-# Session 2: Digital Divide
+## Session 2: Digital Divide
 
 TODO Session 2
 
-# Session 3: Censorship
+## Session 3: Censorship
 
 TODO Session 3
 
-# Conclusions
+## Conclusions
 
 
 --- back
