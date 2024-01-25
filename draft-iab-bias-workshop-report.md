@@ -28,7 +28,7 @@ author:
  -
     fullname: "Mallory Knodel"
     email: "mknodel@cdt.org"
- 
+
 normative:
 
 informative:
@@ -36,17 +36,17 @@ informative:
   SDG:
     target: https://sdgs.un.org/goals
     title: Sustainable Development Goals
-  MARTINEZ:  
+  MARTINEZ:
     target: https://www.ietf.org/slides/slides-biasws-community-networks-and-the-quest-for-quality-00.pdf
     title: Community Networks and the Quest for Quality
     author:
       -
         ins:  L. M. Martínez-Cervantes
-        name: Luis Miguel Martínez Cervantes 
+        name: Luis Miguel Martínez Cervantes
       -
         ins:  R. Guevara-Martínez
         name: Rolando Guevara Martínez
-    date: January 2024     
+    date: January 2024
   BENSON:
     target: https://www.ietf.org/slides/slides-biasws-a-c-in-cdn-access-service-to-and-from-the-internet-at-cost-for-community-networks-00.pdf
     title: A ‘C’ in CDN - Access service to and from the Internet at cost for community networks
@@ -57,7 +57,7 @@ informative:
       -
         ins:  M. Fayed
         name: Marwan Fayed
-    date: January 2024    
+    date: January 2024
   HU:
     target: https://www.ietf.org/slides/slides-biasws-closing-the-performance-and-management-gaps-with-satellite-internet-challenges-approaches-and-future-directions-01.pdf
     title: Closing the Performance and Management Gaps with Satellite Internet - Challenges, Approaches, and Future Directions
@@ -90,9 +90,9 @@ The Internet as part of the critical infrastructure affects many aspects of our 
 
 Solely having Internet access is not enough. At the same time as we work to connect the next billion people and reduce the digital divide, it is also important to understand persistent and novel inequalities in the digital age when accessing content and services. There are more and more barriers to meaningful access to the services and applications that run on the Internet. Even if Internet connectivity is available, information and services access may remain challenged and unequal.
 
-This IAB workshop has aimed  
+This IAB workshop has aimed
 
-* to collect reports about barriers to accessing content and services on the Internet, e.g. based on filtering, and blocking as well as due to general inequality of technological capabilities, like device or protocol limitations. 
+* to collect reports about barriers to accessing content and services on the Internet, e.g. based on filtering, and blocking as well as due to general inequality of technological capabilities, like device or protocol limitations.
 
 * to help the Internet community get a better understanding of how the Internet functions in different parts of the world and which technology or techniques need to be used to gain access to content.
 
@@ -112,7 +112,7 @@ The workshop was organized across three days with all-group discussion slots, on
 
 The first day of the workshop focused on the role of Community Networks {{RFC7962}} as a way to overcome the barriers to Internet Access. Community Networks are self-organized networks wholly owned by the community and thus provide an alternative mechanism to bring connectivity and internet services to those places that lack commercial interest. 
 
-Presentations ranged from highlighting the need for measuring Quality of Experience (QoE) for Community Networks, to the potential role the Content Delivery Network (CDN) can play in Community Networks, to the role of Satellite Networks, and finally, to the vital role of the spectrum in this space. 
+Presentations ranged from highlighting the need for measuring Quality of Experience (QoE) for Community Networks, to the potential role the Content Delivery Network (CDN) can play in Community Networks, to the role of Satellite Networks, and finally, to the vital role of the spectrum in this space.
 
 ### Community Networks and the Quest for Quality
 
