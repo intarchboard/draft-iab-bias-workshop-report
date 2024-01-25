@@ -110,7 +110,7 @@ The workshop was organized across three days with all-group discussion slots, on
 
 ## Session 1: Community Networks - Their Role in Internet Access of Services
 
-The first day of the workshop focused on the role of Community Networks {{RFC7962}} as a way to overcome the barriers to Internet Access. Community Networks are self-organized networks wholly owned by the community and thus provide an alternative mechanism to bring connectivity and internet services to those places that lack commercial interest. 
+The first day of the workshop focused on the role of Community Networks {{RFC7962}} as a way to overcome the barriers to Internet Access. Community Networks are self-organized networks wholly owned by the community and thus provide an alternative mechanism to bring connectivity and internet services to those places that lack commercial interest.
 
 Presentations ranged from highlighting the need for measuring Quality of Experience (QoE) for Community Networks, to the potential role the Content Delivery Network (CDN) can play in Community Networks, to the role of Satellite Networks, and finally, to the vital role of the spectrum in this space.
 
