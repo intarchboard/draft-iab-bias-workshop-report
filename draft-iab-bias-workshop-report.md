@@ -32,9 +32,48 @@ author:
 normative:
 
 informative:
+  RFC7962:
   SDG:
     target: https://sdgs.un.org/goals
     title: Sustainable Development Goals
+  MARTINEZ:  
+    target: https://www.ietf.org/slides/slides-biasws-community-networks-and-the-quest-for-quality-00.pdf
+    title: Community Networks and the Quest for Quality
+    author:
+      -
+        ins:  L. M. Martínez-Cervantes
+        name: Luis Miguel Martínez Cervantes 
+      -
+        ins:  R. Guevara-Martínez
+        name: Rolando Guevara Martínez
+    date: January 2024     
+  BENSON:
+    target: https://www.ietf.org/slides/slides-biasws-a-c-in-cdn-access-service-to-and-from-the-internet-at-cost-for-community-networks-00.pdf
+    title: A ‘C’ in CDN: Access service to and from the Internet at cost for community networks
+    author:
+      -
+        ins:  T. A. Benson
+        name: Theophilus A. Benson
+      -
+        ins:  M. Fayed
+        name: Marwan Fayed
+    date: January 2024    
+  HU:
+    target: https://www.ietf.org/slides/slides-biasws-closing-the-performance-and-management-gaps-with-satellite-internet-challenges-approaches-and-future-directions-01.pdf
+    title: Closing the Performance and Management Gaps with Satellite Internet: Challenges, Approaches, and Future Directions
+    author:
+      -
+        ins:  P. Hu
+        name: Peng Hu
+    date: January 2024
+  RENNO:
+    target: https://www.ietf.org/slides/slides-biasws-position-paper-by-raquel-renno-01.pdf
+    title: Maximising Connectivity: The Spectrum's Vital Role in Technology Access
+    author:
+      -
+        ins:  R. Rennó
+        name: Raquel Rennó
+    date: January 2024
 
 
 --- abstract
@@ -45,7 +84,7 @@ Note that this document is a report on the proceedings of the workshop.  The vie
 
 --- middle
 
-# Introduction and Workshop Scope
+# Introduction
 
 The Internet as part of the critical infrastructure affects many aspects of our society significantly, although it impacts different parts of society differently. The Internet is an important tool to reach the Sustainable Development Goals (SDG) {{SDG}} and to globally support human rights. Consequently, the lack of meaningful access to digital infrastructure and services is also a form of disenfranchisement.
 
@@ -69,15 +108,35 @@ Furthermore, the content of the report comes from presentations given by worksho
 
 The workshop was organized across three days with all-group discussion slots, one per day. The following topic areas were identified and the program committee organized paper submissions into three main themes for each of the three discussion slots. During each discussion, those papers were presented sequentially with open discussion held at the end of each day.
 
-## Session 1: Community Networks
+## Session 1: Community Networks - Their Role in Internet Access of Services
 
-TODO Session 1
+The first day of the workshop focused on the role of Community Networks {{RFC7962}} as a way to overcome the barriers to Internet Access. Community Networks are self-organized networks wholly owned by the community and thus provide an alternative mechanism to bring connectivity and internet services to those places that lack commercial interest. 
 
-## Session 2: Digital Divide
+Presentations ranged from highlighting the need for measuring Quality of Experience (QoE) for Community Networks, to the potential role the Content Delivery Network (CDN) can play in Community Networks, to the role of Satellite Networks, and finally, to the vital role of the spectrum in this space. 
+
+### Community Networks and the Quest for Quality
+
+{{MARTINEZ}}
+
+### A ‘C’ in CDN: Access service to and from the Internet at cost for community networks
+
+{{BENSON}}
+
+### Closing the Performance and Management Gaps with Satellite Internet: Challenges, Approaches, and Future Directions
+
+{{HU}}
+
+### Maximising Connectivity: The Spectrum’s Vital Role in Technology Access 
+
+{{RENNO}}
+
+### Discussion
+
+## Session 2: Digital Divide - Reports and Comments
 
 TODO Session 2
 
-## Session 3: Censorship
+## Session 3: Censorship - Measurements
 
 TODO Session 3
 
