@@ -207,7 +207,7 @@ All speakers called for more transparency by requiring blocking messages as well
 
 Further on in the session, the possibility and prevalence for using VPNs for circumvention has been discussed including user expectation and an analysis of security short-comings of commercial VPN services. The analysis presented in {{RAMESH}} has shown various problems that lead to data leaks such leakage of IPv6 traffic, non-browser traffic or at tunnel failure, not upholding user expectations especially when used in authoritarian regimes for censorship circumvention or private communication.
 
-The question how common the use of VPNs for circumvention is and its legal implications, as VPNs are illegal in a few countries, as been discussed. E.g. VPNs not officially banded in India but VPN providers need to store log data and those who haven’t complied stopped serving India. However, more data on VPN use might be needed.
+The question how common the use of VPNs for circumvention is and its legal implications, as VPNs are illegal in a few countries, as been discussed. E.g. VPNs not officially banded in India but VPN providers need to store log data and those, who haven’t complied, stopped serving India. However, more data on VPN use and blocking might be needed.
 
 After all, there is a cat and mouse game between censors and circumvents, however continued work on protocol enhancements that protect user privacy is essential.
 
