@@ -288,9 +288,9 @@ Table of Contents
    The question how common the use of VPNs for circumvention is and its
    legal implications, as VPNs are illegal in a few countries, as been
    discussed.  E.g.  VPNs not officially banded in India but VPN
-   providers need to store log data and those who haven’t complied
-   stopped serving India.  However, more data on VPN use might be
-   needed.
+   providers need to store log data and those, who haven’t complied,
+   stopped serving India.  However, more data on VPN use and blocking
+   might be needed.
 
    After all, there is a cat and mouse game between censors and
    circumvents, however continued work on protocol enhancements that
