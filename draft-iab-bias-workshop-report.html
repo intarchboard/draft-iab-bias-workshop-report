@@ -1035,7 +1035,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </tr></thead>
 <tfoot><tr>
 <td class="left">Kühlewind, et al.</td>
-<td class="center">Expires 28 July 2024</td>
+<td class="center">Expires 29 July 2024</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1048,12 +1048,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-iab-bias-workshop-report-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2024-01-25" class="published">25 January 2024</time>
+<time datetime="2024-01-26" class="published">26 January 2024</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2024-07-28">28 July 2024</time></dd>
+<dd class="expires"><time datetime="2024-07-29">29 July 2024</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1104,7 +1104,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 28 July 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 29 July 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1292,8 +1292,16 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <a href="#section-2.3" class="section-number selfRef">2.3. </a><a href="#name-session-3-censorship-measur" class="section-name selfRef">Session 3: Censorship - Measurements</a>
         </h3>
 <p id="section-2.3-1">This session focused on reports of censorship as observed during recent years in different parts of the world, as well as on the use of and expectation on censorship circumvention tools, mainly use of secure VPN services.<a href="#section-2.3-1" class="pilcrow">¶</a></p>
-<p id="section-2.3-2">The censorship reports, with a focus on Asia, and specifically India, as well as Russia, as an example where censorship changes significantly recently, discussed the legal frameworks and court acts that put legal obligation on regional network providers to block traffic and also measurements to validate the blocking as well as analyses how blocking is implemented, i.e. which protocols are used but also which kind of devices are used to configure the blocking rules and where are they deployed.<a href="#section-2.3-2" class="pilcrow">¶</a></p>
-<p id="section-2.3-3">Further, the possibility and prevalence for using VPNs for circumvention has been discussed including user expectation and an analysis of security short-comings of commercial VPN services. This analysis has shown various problems that lead to data leaks, not upholding user expectations especially when used in authoritarian regimes for censorship circumvention or private communication.<a href="#section-2.3-3" class="pilcrow">¶</a></p>
+<p id="section-2.3-2">The censorship reports, with a focus on Asia, and specifically India, as well as Russia, as an example where censorship changes significantly recently, discussed the legal frameworks and court acts that put legal obligation on regional network providers to block traffic. Further, measurements to validate the blocking as well as analyses how blocking is implemented was discussed, i.e. which protocols are used but also which kind of devices are used to configure the blocking rules and where are they deployed.<a href="#section-2.3-2" class="pilcrow">¶</a></p>
+<p id="section-2.3-3"><span>[<a href="#SAMSUDIN" class="cite xref">SAMSUDIN</a>]</span> reported on confirmed blocking form 10 countries (Cambodia, Hong Kong (China), India, Indonesia, Malaysia, Myanmar, Philippines, Thailand, Timor-Leste, Vietnam) in the period from 1 July 2022 to 30 June 2023. The blocking was either confirmed by OONI measurements for existing blocking fingerprints, heuristics i.e. for new blocking fingerprints as well as news reports of blocking orders or user experiences. Most of these countries block specific contents such as porn, gambling, or certain news pages. Interesting the block in Hong Kong and Myanmar is focused on military and governmental page of foreign countries. Blocking often realized by either DNS tampering or HTTP tampering. For DNS, either a decided IP address, a Bogon IP address (127.0.0.1) or an empty domain (nxdomain) is used. In case DNS tampering using a decided IP address or HTTP tampering some countries provide block page that exposed the blocking, however, more transparency about blocking applied to requested by civil society organisations and the iMAP project.<a href="#section-2.3-3" class="pilcrow">¶</a></p>
+<p id="section-2.3-4"><span>[<a href="#GROVER" class="cite xref">GROVER</a>]</span> further focused the discussion on online censorship in India, Pakistan and Indonesia. In India, where providers are responsible to implement the blocking but no method is mandated, the six mayor ISPs (covering 98.82% of all subscribers) were tested on 4379 blocked websites (based on courts orders, user reports, and publicly available or leaked government orders) on DNS poisoning/injection or HTTP/SNI-based censorship. Used censorship techniques and websites blocked were different between ISPs. Only one ISP used SNI-based blocking. Multiple ISPs used two different technqiues (depending on the website), and all but one provide censorship notices. Providers blocked between 1892 to 3721 (of 4379) pages with only 1115 (27.64%) of pages blocked by all ISPs. In constract, e.g. in Parkistan the government can also order the IPSs to perform blocking, and blocking as even been observed in the past on IXP level, however, since 2020 there is also a central Web Monitoring System deployed. In Indonesia initially the government provided guidance to ISP, however, the regulation was updated in 2020 and now allows Indonesian ISPs to block websites on their own discretion. But there was also in 2022 a proposal to centralise DNS. In Indonesia the block is is publicly available but without any indication why something is blocked.<a href="#section-2.3-4" class="pilcrow">¶</a></p>
+<p id="section-2.3-5"><span>[<a href="#BASSO" class="cite xref">BASSO</a>]</span> reported that for Russia a high increase in additions to the Roskomnadzor’s block list was observed in March 2022 as well as in December 2022, formost covering news pages but also cover human rights organisation and social media, where more than 3500 blocking order are added to a list by an "Unknown body". Further blocking of domain that are not in the official Roskomnadzor’s list have been observed as well.<a href="#section-2.3-5" class="pilcrow">¶</a></p>
+<p id="section-2.3-6">An invited talk presented the work in <span>[<a href="#WANG" class="cite xref">WANG</a>]</span> on locating censorship devices by using HTTP and TLS traceroutes, identifying device vendors through fingerprinting, and reverse-engineering censorship triggers by use of fuzzing.
+E.g. for the case of Azerbaijan and Kazakhstan they showed that a significant portion of measurements from remote countries are blocked at the endpoint, indicating local policies but connection resets are also happening in Belarus and Russia. Further they could identify a set of commercial network devices (firewalls) that are used in these countries for censorship and show how fuzzing can be used to fingerprint and cluster behaviors as well as potentially circumvents the deployed methods.<a href="#section-2.3-6" class="pilcrow">¶</a></p>
+<p id="section-2.3-7">All speakers called for more transparency by requiring blocking messages as well as publication and auditing of blocklists. Potentially even standardization could help.<a href="#section-2.3-7" class="pilcrow">¶</a></p>
+<p id="section-2.3-8">Further on in the session, the possibility and prevalence for using VPNs for circumvention has been discussed including user expectation and an analysis of security short-comings of commercial VPN services. The analysis presented in <span>[<a href="#RAMESH" class="cite xref">RAMESH</a>]</span> has shown various problems that lead to data leaks such leakage of IPv6 traffic, non-browser traffic or at tunnel failure, not upholding user expectations especially when used in authoritarian regimes for censorship circumvention or private communication.<a href="#section-2.3-8" class="pilcrow">¶</a></p>
+<p id="section-2.3-9">The question how common the use of VPNs for circumvention is and its legal implications, as VPNs are illegal in a few countries, as been discussed. E.g. VPNs not officially banded in India but VPN providers need to store log data and those who haven’t complied stopped serving India. However, more data on VPN use might be needed.<a href="#section-2.3-9" class="pilcrow">¶</a></p>
+<p id="section-2.3-10">After all, there is a cat and mouse game between censors and circumvents, however continued work on protocol enhancements that protect user privacy is essential.<a href="#section-2.3-10" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="conclusions">
@@ -1311,9 +1319,17 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <a href="#section-3" class="section-number selfRef">3. </a><a href="#name-informative-references" class="section-name selfRef">Informative References</a>
       </h2>
 <dl class="references">
+<dt id="BASSO">[BASSO]</dt>
+      <dd>
+<span class="refAuthor">Basso, S.</span>, <span class="refTitle">"How Internet censorship changed in Russia during the 1st year of military conflict in Ukraine"</span>, <time datetime="2024-01" class="refDate">January 2024</time>, <span>&lt;<a href="https://datatracker.ietf.org/meeting/interim-2024-biasws-03/materials/slides-interim-2024-biasws-03-sessa-online-censorship-in-india-pakistan-and-indonesia-00">https://datatracker.ietf.org/meeting/interim-2024-biasws-03/materials/slides-interim-2024-biasws-03-sessa-online-censorship-in-india-pakistan-and-indonesia-00</a>&gt;</span>. </dd>
+<dd class="break"></dd>
 <dt id="BENSON">[BENSON]</dt>
       <dd>
 <span class="refAuthor">Benson, T. A.</span> and <span class="refAuthor">M. Fayed</span>, <span class="refTitle">"A ‘C’ in CDN - Access service to and from the Internet at cost for community networks"</span>, <time datetime="2024-01" class="refDate">January 2024</time>, <span>&lt;<a href="https://www.ietf.org/slides/slides-biasws-a-c-in-cdn-access-service-to-and-from-the-internet-at-cost-for-community-networks-00.pdf">https://www.ietf.org/slides/slides-biasws-a-c-in-cdn-access-service-to-and-from-the-internet-at-cost-for-community-networks-00.pdf</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="GROVER">[GROVER]</dt>
+      <dd>
+<span class="refAuthor">Grover, G.</span>, <span class="refTitle">"Online censorship in India, Pakistan and Indonesia"</span>, <time datetime="2024-01" class="refDate">January 2024</time>, <span>&lt;<a href="https://datatracker.ietf.org/meeting/interim-2024-biasws-03/materials/slides-interim-2024-biasws-03-sessa-online-censorship-in-india-pakistan-and-indonesia-00">https://datatracker.ietf.org/meeting/interim-2024-biasws-03/materials/slides-interim-2024-biasws-03-sessa-online-censorship-in-india-pakistan-and-indonesia-00</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="HU">[HU]</dt>
       <dd>
@@ -1323,6 +1339,10 @@ svg :is([fill="white"], [fill^="#fff"]) {
       <dd>
 <span class="refAuthor">Martínez-Cervantes, L. M.</span> and <span class="refAuthor">R. Guevara-Martínez</span>, <span class="refTitle">"Community Networks and the Quest for Quality"</span>, <time datetime="2024-01" class="refDate">January 2024</time>, <span>&lt;<a href="https://www.ietf.org/slides/slides-biasws-community-networks-and-the-quest-for-quality-00.pdf">https://www.ietf.org/slides/slides-biasws-community-networks-and-the-quest-for-quality-00.pdf</a>&gt;</span>. </dd>
 <dd class="break"></dd>
+<dt id="RAMESH">[RAMESH]</dt>
+      <dd>
+<span class="refAuthor">Ramesh, R.</span>, <span class="refTitle">"Investigating the VPN Ecosystem through the lens of Security, Privacy, and Usability"</span>, <time datetime="2024-01" class="refDate">January 2024</time>, <span>&lt;<a href="https://datatracker.ietf.org/meeting/interim-2024-biasws-03/materials/slides-interim-2024-biasws-03-sessa-investigating-the-vpn-ecosystem-through-the-lens-of-security-privacy-and-usability-00">https://datatracker.ietf.org/meeting/interim-2024-biasws-03/materials/slides-interim-2024-biasws-03-sessa-investigating-the-vpn-ecosystem-through-the-lens-of-security-privacy-and-usability-00</a>&gt;</span>. </dd>
+<dd class="break"></dd>
 <dt id="RENNO">[RENNO]</dt>
       <dd>
 <span class="refAuthor">Rennó, R.</span>, <span class="refTitle">"Maximising Connectivity - The Spectrum's Vital Role in Technology Access"</span>, <time datetime="2024-01" class="refDate">January 2024</time>, <span>&lt;<a href="https://www.ietf.org/slides/slides-biasws-position-paper-by-raquel-renno-01.pdf">https://www.ietf.org/slides/slides-biasws-position-paper-by-raquel-renno-01.pdf</a>&gt;</span>. </dd>
@@ -1331,9 +1351,17 @@ svg :is([fill="white"], [fill^="#fff"]) {
       <dd>
 <span class="refAuthor">Saldana, J., Ed.</span>, <span class="refAuthor">Arcia-Moret, A.</span>, <span class="refAuthor">Braem, B.</span>, <span class="refAuthor">Pietrosemoli, E.</span>, <span class="refAuthor">Sathiaseelan, A.</span>, and <span class="refAuthor">M. Zennaro</span>, <span class="refTitle">"Alternative Network Deployments: Taxonomy, Characterization, Technologies, and Architectures"</span>, <span class="seriesInfo">RFC 7962</span>, <span class="seriesInfo">DOI 10.17487/RFC7962</span>, <time datetime="2016-08" class="refDate">August 2016</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc7962">https://www.rfc-editor.org/rfc/rfc7962</a>&gt;</span>. </dd>
 <dd class="break"></dd>
+<dt id="SAMSUDIN">[SAMSUDIN]</dt>
+      <dd>
+<span class="refAuthor">Samsudin, S.</span>, <span class="refTitle">"iMAP (Internet Monitoring Action Project) 2023 Internet Censorship Report"</span>, <time datetime="2024-01" class="refDate">January 2024</time>, <span>&lt;<a href="https://www.ietf.org/slides/slides-biasws-position-paper-by-raquel-renno-01.pdf">https://www.ietf.org/slides/slides-biasws-position-paper-by-raquel-renno-01.pdf</a>&gt;</span>. </dd>
+<dd class="break"></dd>
 <dt id="SDG">[SDG]</dt>
-    <dd>
+      <dd>
 <span class="refTitle">"Sustainable Development Goals"</span>, <span>n.d.</span>, <span>&lt;<a href="https://sdgs.un.org/goals">https://sdgs.un.org/goals</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="WANG">[WANG]</dt>
+    <dd>
+<span class="refAuthor">Raman, R. S.</span>, <span class="refAuthor">Wang, M.</span>, <span class="refAuthor">Dalek, J.</span>, <span class="refAuthor">Mayer, J.</span>, and <span class="refAuthor">R. Ensafi</span>, <span class="refTitle">"Network Measurement Methods for Locating and Examining Censorship Devices"</span>, <time datetime="2023-11" class="refDate">November 2023</time>, <span>&lt;<a href="https://datatracker.ietf.org/meeting/interim-2024-biasws-03/materials/slides-interim-2024-biasws-03-sessa-online-censorship-in-india-pakistan-and-indonesia-00">https://datatracker.ietf.org/meeting/interim-2024-biasws-03/materials/slides-interim-2024-biasws-03-sessa-online-censorship-in-india-pakistan-and-indonesia-00</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 </dl>
 </section>
