@@ -225,12 +225,14 @@ All accepted papers are available at: https://datatracker.ietf.org/group/biasws/
 This is the list of all published papers:
 
 Commuity Networks:
+
 * L. M. Martínez-Cervantes, R. Guevara-Martínez:	Community Networks and the Quest for Quality
 * T. Benson, M. Fayed:	A ‘C’ in CDN: Access service to and from the Internet for community networks at-cost
 * P. Hu:	Closing the Performance and Management Gaps with Satellite Internet: Challenges, Approaches, and Future Directions
 * R. Rennó:	Maximising Connectivity: The Spectrum's Vital Role in Technology Access
 
 Digital Divide:
+
 * R. Holz, N. Nazemi, O. Tavallaie, A.Y. Zomaya:	Evidence for a digital divide? Measuring DNS dependencies in the context of the indigenous population of Australia
 * S. Hussain:	Universal Acceptance of Domain Names and Email Addresses: A Key to Digital Inclusion
 * R. Habib, S. Tanveer, A. Inam, H. Ahmed, A. Ali, Z.A. Uzmi, Z.A. Qazi, I.A. Qazi:	A Framework for Improving Web Affordability and Inclusiveness
@@ -238,6 +240,7 @@ Digital Divide:
 * L.Y. Ohlsen:	BIAS workshop - M-Lab Position Paper submission
 
 Censorhsip:
+
 * S. Nurliza Samsudin:	iMAP (Internet Monitoring Action Project) 2023 Internet Censorship Report
 * G. Grover:	The infrastructure of censorship in Asia
 * S. Basso:	How Internet censorship changed in Russia during the 1st year of military conflict in Ukraine
