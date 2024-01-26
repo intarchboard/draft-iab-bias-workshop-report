@@ -74,6 +74,22 @@ informative:
         ins:  R. Rennó
         name: Raquel Rennó
     date: January 2024
+  SAMSUDIN:
+    target: https://www.ietf.org/slides/slides-biasws-position-paper-by-raquel-renno-01.pdf
+    title: iMAP (Internet Monitoring Action Project) 2023 Internet Censorship Report
+    author:
+      -
+        ins:  S.  Samsudin
+        name: Siti Nurliza Samsudin
+    date: January 2024
+  GROVER:
+    target: https://datatracker.ietf.org/meeting/interim-2024-biasws-03/materials/slides-interim-2024-biasws-03-sessa-online-censorship-in-india-pakistan-and-indonesia-00
+    title: Online censorship in India, Pakistan and Indonesia
+    author:
+      -
+        ins:  G. Grover
+        name: Gurshabad Grover
+    date: January 2024
 
 
 --- abstract
@@ -140,10 +156,14 @@ TODO Session 2
 
 This session focused on reports of censorship as observed during recent years in different parts of the world, as well as on the use of and expectation on censorship circumvention tools, mainly use of secure VPN services.
 
-The censorship reports, with a focus on Asia, and specifically India, as well as Russia, as an example where censorship changes significantly recently, discussed the legal frameworks and court acts that put legal obligation on regional network providers to block traffic and also measurements to validate the blocking as well as analyses how blocking is implemented, i.e. which protocols are used but also which kind of devices are used to configure the blocking rules and where are they deployed.
+The censorship reports, with a focus on Asia, and specifically India, as well as Russia, as an example where censorship changes significantly recently, discussed the legal frameworks and court acts that put legal obligation on regional network providers to block traffic. Further, measurements to validate the blocking as well as analyses how blocking is implemented was discussed, i.e. which protocols are used but also which kind of devices are used to configure the blocking rules and where are they deployed.
 
-Further, the possibility and prevalence for using VPNs for circumvention has been discussed including user expectation and an analysis of security short-comings of commercial VPN services. This analysis has shown various problems that lead to data leaks, not upholding user expectations especially when used in authoritarian regimes for censorship circumvention or private communication.
+{{SAMSUDIN}} reported on confirmed blocking form 10 countries (Cambodia, Hong Kong (China), India, Indonesia, Malaysia, Myanmar, Philippines, Thailand, Timor-Leste, Vietnam) in the period from 1 July 2022 to 30 June 2023. The blocking was either confirmed by OONI measurements for existing blocking fingerprints, heuristics i.e. for new blocking fingerprints as well as news reports of blocking orders or user experiences. Most of these countries block specific contents such as porn, gambling, or certain news pages. Interesting the block in Hong Kong and Myanmar is focused on mililtary and governmental page from forgein countries. Blocking often realized by either DNS tampering or HTTP tampering. For DNS, either a decided IP address, a Bogon IP address (127.0.0.1) or an empty domain (nxdomain) is used. In case DNS tampering using a decided IP address or HTTP tamoering some countries provide block page that exposed the blocking, however, more transparency about blocking applied to requested by civil society organisations and the iMAP project.
 
+{{GROVER}} further fosuced the discussion on online censorship in India, Pakistan and Indonesia.
+
+
+Further, the possibility and prevalence for using VPNs for circumvention has been discussed including user expectation and an analysis of security short-comings of commercial VPN services. This analysis has shown various problems that lead to data leaks, not upholding user expectations especially when used in authoritarian regimes for censorship circumvention or private communication. 
 ## Conclusions
 
 
