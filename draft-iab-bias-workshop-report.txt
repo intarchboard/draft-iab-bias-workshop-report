@@ -80,7 +80,7 @@ Table of Contents
            Access of Services
        2.1.1.  Community Networks and the Quest for Quality
        2.1.2.  A ‘C’ in CDN: Access service to and from the Internet
-               at cost for community networks
+               at cost for Community Networks
        2.1.3.  Closing the Performance and Management Gaps with
                Satellite Internet: Challenges, Approaches, and Future
                Directions
@@ -188,9 +188,16 @@ Table of Contents
    participants.
 
 2.1.2.  A ‘C’ in CDN: Access service to and from the Internet at cost
-        for community networks
+        for Community Networks
 
-   [BENSON]
+   [BENSON] focused on the prohibitive cost of the transit and Internet
+   service for Community Networks and argued for Content Delivery
+   Networks (CDNs) to provide transit-like and Internet services at no
+   more than at-cost in a mutually beneficial way.  Community networks
+   still need backhaul to and from the CDN’s point of presence and
+   models for community-backhaul and open-source CDNs were highlighted.
+   Discussion included [PANGEA] project status as well as legal and
+   commercial considerations in such use of CDNs.
 
 2.1.3.  Closing the Performance and Management Gaps with Satellite
         Internet: Challenges, Approaches, and Future Directions
@@ -350,6 +357,9 @@ Table of Contents
               "Community Networks and the Quest for Quality", January
               2024, <https://www.ietf.org/slides/slides-biasws-
               community-networks-and-the-quest-for-quality-00.pdf>.
+
+   [PANGEA]   "Project Pangea from Cloudflare", n.d.,
+              <https://www.cloudflare.com/en-gb/pangea/>.
 
    [RAMESH]   Ramesh, R., "Investigating the VPN Ecosystem through the
               lens of Security, Privacy, and Usability", January 2024,
