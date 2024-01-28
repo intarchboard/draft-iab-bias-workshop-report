@@ -191,11 +191,11 @@ Presentations ranged from highlighting the need for measuring Quality of Experie
 
 ### Closing the Performance and Management Gaps with Satellite Internet: Challenges, Approaches, and Future Directions
 
-{{HU}} highlighted that Satellite Internet provided by advanced LEO satellite constellations can provide a pivotal role in closing the connectivity gap in the urban-rural digital divide via Satellite-dependent community networks. There existing known performance and management gaps that needs focus to enable Satellite Internet to resolve the divide. Further, research directions such as Multi-layer Satellite Networking, Autonomous Maintenenace, integration between Terrestrial and Non-Terrestrial networks were suggested.
+{{HU}} highlighted that Satellite Internet provided by advanced LEO satellite constellations can play a pivotal role in closing the connectivity gap in the urban-rural digital divide via Satellite-dependent community networks. There existing known performance and management gaps that need focus to enable Satellite Internet to resolve the divide. Further, research directions such as multi-layer satellite networking, autonomous maintenance, and integration between Terrestrial and Non-Terrestrial networks were suggested.
 
 ### Maximising Connectivity: The Spectrum’s Vital Role in Technology Access
 
-{{RENNO}}
+{{RENNO}} called attention to the coveted 6GHz (part of the C-band with a desirable mix of coverage and capacity) as a prime choice for 5G technology while it is in common unlicensed use in the community networks (and small ISPs). Spectrum allocations directly impact industries and market access with ramifications for community networks. Further, there was a discussion on the geopolitical tension because of it.
 
 ### Discussion
 
