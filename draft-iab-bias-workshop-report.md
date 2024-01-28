@@ -70,6 +70,9 @@ informative:
         ins:  M. Fayed
         name: Marwan Fayed
     date: January 2024
+  PANGEA:
+    target: https://www.cloudflare.com/en-gb/pangea/
+    title: Project Pangea from Cloudflare
   HU:
     target: https://www.ietf.org/slides/slides-biasws-closing-the-performance-and-management-gaps-with-satellite-internet-challenges-approaches-and-future-directions-01.pdf
     title: Closing the Performance and Management Gaps with Satellite Internet - Challenges, Approaches, and Future Directions
@@ -182,9 +185,9 @@ Presentations ranged from highlighting the need for measuring Quality of Experie
 
 {{MARTINEZ}} highlighted the need to address Quality of Experience (QoE) in discussions around Community Networks. As a community-driven deployment, the knowledge and involvement of individuals can vary; therefore, there are no guarantees of connectivity or quality of service. There is a need to focus on user expectations and how they translate to measurable performance indicators. Further, it asks for better documenting best practices in deploying community networks as well as considering manageability considerations for community networks in protocol development. {{GUIFI}} as an example Community Network was discussed and some existing resources for Community Networks ({{APC}}, {{ISOC}}, and {{TBB}}) were shared by the participants.
 
-### A ‘C’ in CDN: Access service to and from the Internet at cost for community networks
+### A ‘C’ in CDN: Access service to and from the Internet at cost for Community Networks
 
-{{BENSON}}
+{{BENSON}} focused on the prohibitive cost of the transit and Internet service for Community Networks and argued for Content Delivery Networks (CDNs) to provide transit-like and Internet services at no more than at-cost in a mutually beneficial way. Community networks still need backhaul to and from the CDN’s point of presence and models for community-backhaul and open-source CDNs were highlighted. Discussion included {{PANGEA}} project status as well as legal and commercial considerations in such use of CDNs.
 
 ### Closing the Performance and Management Gaps with Satellite Internet: Challenges, Approaches, and Future Directions
 
