@@ -272,7 +272,7 @@ In addition to the submitted paper two invited talks were presented based on pub
 
 # Workshop Participants
 
-TODO Workshop Participants
+The workshop participants were Arnaud Taddei, Carlos Pignataro, Carsten Bormann, Cindy Morgan, Colin Perkins, Cory Myers, Dan Sexton, David Guzman, David Millman, David Schinazi, Dhruv Dhody, Gurshabad Grover, Hanna Kreitem, Jane Coffin, Jiankang Yao, Jörg Ott, Juan Peirano, Lai Yi Ohlsen, Luis Martinez, Mallory Knodel, Marwan Fayed, Matthew Bocci, Michael Welzl, Michuki Mwangi, Mirja Kühlewind, Mona Wang, Peng Hu, Ralph Holz, Raquel Renno, Reethika Ramesh, Rumaisa Habib, Sarmad Hussain, Simone Basso, Siti Nurliza Samsudin, Suresh Krishnan, Theophilus Benson, Tirumaleswar Reddy, Tommy Pauly, Vesna Manojlovic, and Wes Hardaker.
 
 # Workshop Program Committee
 
