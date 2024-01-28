@@ -215,14 +215,26 @@ Table of Contents
         Access
 
    [RENNO] called attention to the coveted 6GHz (part of the C-band with
-   a desirable mix of coverage and capacity) as a prime choice for 5G
-   technology while it is in common unlicensed use in the community
-   networks (and small ISPs).  Spectrum allocations directly impact
-   industries and market access with ramifications for community
-   networks.  Further, there was a discussion on the geopolitical
-   tension because of it.
+   a desirable mix of coverage and capacity) as a prime choice for
+   International Mobile Telecommunication (IMT) for 5G technology while
+   it is in common unlicensed use in the community networks (and small
+   ISPs).  Spectrum allocations directly impact industries and market
+   access with ramifications for community networks.  Further, there was
+   a discussion on the geopolitical tension because of it.
 
 2.1.5.  Discussion
+
+   How can the technical community address the management gap and
+   improve best practices for Community Networks?  Is the increasing
+   complexity of the Internet making it more challenging to establish
+   connections, and should this be taken into account in the design of
+   the Internet?  Should the managebility consideration be expanded to
+   explicitly consider Community Networks?  Global Access to the
+   Internet for All (GAIA) [GAIA] research group could be a venue for
+   further discussion and research.  Further discussion highlighted the
+   need for readily available knowledge and tools for community networks
+   as well as the tussle with market forces when commercial networks
+   compete with community networks.
 
 2.2.  Session 2: Digital Divide - Reports and Comments
 
@@ -346,6 +358,9 @@ Table of Contents
               January 2024, <https://www.ietf.org/slides/slides-biasws-
               a-c-in-cdn-access-service-to-and-from-the-internet-at-
               cost-for-community-networks-00.pdf>.
+
+   [GAIA]     "Global Access to the Internet for All Research Group",
+              n.d., <https://www.irtf.org/gaia.html>.
 
    [GROVER]   Grover, G., "Online censorship in India, Pakistan and
               Indonesia", January 2024,
