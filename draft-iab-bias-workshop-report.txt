@@ -182,8 +182,9 @@ Table of Contents
    they translate to measurable performance indicators.  Further, it
    asks for better documenting best practices in deploying community
    networks as well as considering manageability considerations for
-   community networks in protocol development.  Some existing resources
-   for Community Networks ([APC], [ISOC], and [TBB]) were shared by the
+   community networks in protocol development.  [GUIFI] as an example
+   Community Network was discussed and some existing resources for
+   Community Networks ([APC], [ISOC], and [TBB]) were shared by the
    participants.
 
 2.1.2.  A ‘C’ in CDN: Access service to and from the Internet at cost
@@ -331,6 +332,8 @@ Table of Contents
               <https://datatracker.ietf.org/meeting/interim-2024-biasws-
               03/materials/slides-interim-2024-biasws-03-sessa-online-
               censorship-in-india-pakistan-and-indonesia-00>.
+
+   [GUIFI]    "Guifi.net", n.d., <https://guifi.net/en>.
 
    [HU]       Hu, P., "Closing the Performance and Management Gaps with
               Satellite Internet - Challenges, Approaches, and Future
