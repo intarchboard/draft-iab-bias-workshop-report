@@ -47,6 +47,15 @@ informative:
         ins:  R. Guevara-Martínez
         name: Rolando Guevara Martínez
     date: January 2024
+  APC:
+    target: https://www.apc.org/
+    title: The Association for Progressive Communications (APC)
+  ISOC:
+    target: https://www.internetsociety.org/action-plan/community-networks/
+    title: Community networks help bridge the connectivity gap
+  TBB:
+    target: https://tribalbroadbandbootcamp.org/
+    title: Tribal Broadband Bootcamp
   BENSON:
     target: https://www.ietf.org/slides/slides-biasws-a-c-in-cdn-access-service-to-and-from-the-internet-at-cost-for-community-networks-00.pdf
     title: A ‘C’ in CDN - Access service to and from the Internet at cost for community networks
@@ -168,7 +177,7 @@ Presentations ranged from highlighting the need for measuring Quality of Experie
 
 ### Community Networks and the Quest for Quality
 
-{{MARTINEZ}}
+{{MARTINEZ}} highlighted the need to address Quality of Experience (QoE) in discussions around Community Networks. As a community-driven deployment, the knowledge and involvement of individuals can vary; therefore, there are no guarantees of connectivity or quality of service. There is a need to focus on user expectations and how they translate to measurable performance indicators. Further, it asks for better documenting best practices in deploying community networks as well as considering manageability considerations for community networks in protocol development. Some existing resources for Community Networks ({{APC}}, {{ISOC}}, and {{TBB}}) were shared by the participants.
 
 ### A ‘C’ in CDN: Access service to and from the Internet at cost for community networks
 
