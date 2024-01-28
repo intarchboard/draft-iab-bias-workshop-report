@@ -138,8 +138,8 @@ Table of Contents
 
    This document is a report on the proceedings of the workshop.  The
    views and positions documented in this report are expressed during
-   the workshop by participants and do not necessarily reflect IAB views
-   and positions.
+   the workshop by participants and do not necessarily reflect IAB's
+   views and positions.
 
    Furthermore, the content of the report comes from presentations given
    by workshop participants and notes taken during the discussions,
@@ -228,7 +228,7 @@ Table of Contents
    improve best practices for Community Networks?  Is the increasing
    complexity of the Internet making it more challenging to establish
    connections, and should this be taken into account in the design of
-   the Internet?  Should the managebility consideration be expanded to
+   the Internet?  Should the manageability consideration be expanded to
    explicitly consider Community Networks?  Global Access to the
    Internet for All (GAIA) [GAIA] research group could be a venue for
    further discussion and research.  Further discussion highlighted the
@@ -244,99 +244,100 @@ Table of Contents
 
    This session focused on reports of censorship as observed during
    recent years in different parts of the world, as well as on the use
-   of and expectation on censorship circumvention tools, mainly use of
-   secure VPN services.
+   of and expectation on censorship circumvention tools, mainly the use
+   of secure VPN services.
 
    The censorship reports, with a focus on Asia, and specifically India,
-   as well as Russia, as an example where censorship changes
+   as well as Russia, as an example where censorship has changed
    significantly recently, discussed the legal frameworks and court acts
-   that put legal obligation on regional network providers to block
+   that put legal obligations on regional network providers to block
    traffic.  Further, measurements to validate the blocking as well as
-   analyses how blocking is implemented was discussed, i.e. which
+   analyses of how blocking is implemented were discussed, i.e. which
    protocols are used but also which kind of devices are used to
    configure the blocking rules and where are they deployed.
 
-   [SAMSUDIN] reported on confirmed blocking form 10 countries
+   [SAMSUDIN] reported on confirmed blocking from 10 countries
    (Cambodia, Hong Kong (China), India, Indonesia, Malaysia, Myanmar,
    Philippines, Thailand, Timor-Leste, Vietnam) in the period from 1
    July 2022 to 30 June 2023.  The blocking was either confirmed by OONI
    measurements for existing blocking fingerprints, heuristics i.e. for
    new blocking fingerprints as well as news reports of blocking orders
-   or user experiences.  Most of these countries block specific contents
-   such as porn, gambling, or certain news pages.  Interesting the block
-   in Hong Kong and Myanmar is focused on military and governmental page
-   of foreign countries.  Blocking often realized by either DNS
-   tampering or HTTP tampering.  For DNS, either a decided IP address, a
-   Bogon IP address (127.0.0.1) or an empty domain (nxdomain) is used.
-   In case DNS tampering using a decided IP address or HTTP tampering
-   some countries provide block page that exposed the blocking, however,
-   more transparency about blocking applied to requested by civil
-   society organisations and the iMAP project.
+   or user experiences.  Most of these countries block specific content
+   such as porn, gambling, or certain news pages.  Interestingly the
+   block in Hong Kong and Myanmar is focused on the military and
+   governmental pages of foreign countries.  Blocking is often realized
+   by either DNS tampering or HTTP tampering.  For DNS, either a decided
+   IP address, a Bogon IP address (127.0.0.1), or an empty domain
+   (nxdomain) is used.  In case of DNS tampering using a decided IP
+   address or HTTP tampering some countries provide a block page that
+   exposes the blocking, however, more transparency about blocking is
+   applied as requested by civil society organizations and the iMAP
+   project.
 
    [GROVER] further focused the discussion on online censorship in
-   India, Pakistan and Indonesia.  In India, where providers are
-   responsible to implement the blocking but no method is mandated, the
-   six mayor ISPs (covering 98.82% of all subscribers) were tested on
-   4379 blocked websites (based on courts orders, user reports, and
+   India, Pakistan, and Indonesia.  In India, where providers are
+   responsible for implementing the blocking but no method is mandated,
+   the six major ISPs (covering 98.82% of all subscribers) were tested
+   on 4379 blocked websites (based on court orders, user reports, and
    publicly available or leaked government orders) on DNS poisoning/
    injection or HTTP/SNI-based censorship.  Used censorship techniques
    and websites blocked were different between ISPs.  Only one ISP used
-   SNI-based blocking.  Multiple ISPs used two different technqiues
-   (depending on the website), and all but one provide censorship
+   SNI-based blocking.  Multiple ISPs used two different techniques
+   (depending on the website), and all but one provided censorship
    notices.  Providers blocked between 1892 to 3721 (of 4379) pages with
-   only 1115 (27.64%) of pages blocked by all ISPs.  In constract, e.g.
-   in Parkistan the government can also order the IPSs to perform
-   blocking, and blocking as even been observed in the past on IXP
+   only 1115 (27.64%) of pages blocked by all ISPs.  In contrast, e.g.
+   in Pakistan the government can also order the IPSs to perform
+   blocking, and blocking has even been observed in the past on the IXP
    level, however, since 2020 there is also a central Web Monitoring
-   System deployed.  In Indonesia initially the government provided
-   guidance to ISP, however, the regulation was updated in 2020 and now
-   allows Indonesian ISPs to block websites on their own discretion.
-   But there was also in 2022 a proposal to centralise DNS.  In
-   Indonesia the block is is publicly available but without any
-   indication why something is blocked.
+   System deployed.  In Indonesia initially, the government guided ISPs,
+   however, the regulation was updated in 2020 and now allows Indonesian
+   ISPs to block websites at their discretion.  But there was also in
+   2022 a proposal to centralise DNS.  In Indonesia, the block is
+   publicly available but without any indication of why something is
+   blocked.
 
    [BASSO] reported that for Russia a high increase in additions to the
    Roskomnadzor’s block list was observed in March 2022 as well as in
-   December 2022, formost covering news pages but also cover human
-   rights organisation and social media, where more than 3500 blocking
+   December 2022, foremost covering news pages but also covering human
+   rights organizations and social media, where more than 3500 blocking
    order are added to a list by an "Unknown body".  Further blocking of
-   domain that are not in the official Roskomnadzor’s list have been
+   domains that are not in the official Roskomnadzor’s list has been
    observed as well.
 
    An invited talk presented the work in [WANG] on locating censorship
    devices by using HTTP and TLS traceroutes, identifying device vendors
    through fingerprinting, and reverse-engineering censorship triggers
-   by use of fuzzing.  E.g. for the case of Azerbaijan and Kazakhstan
+   by use of fuzzing.  E.g. for the case of Azerbaijan and Kazakhstan,
    they showed that a significant portion of measurements from remote
    countries are blocked at the endpoint, indicating local policies but
-   connection resets are also happening in Belarus and Russia.  Further
+   connection resets are also happening in Belarus and Russia.  Further,
    they could identify a set of commercial network devices (firewalls)
    that are used in these countries for censorship and show how fuzzing
    can be used to fingerprint and cluster behaviors as well as
-   potentially circumvents the deployed methods.
+   potentially circumvent the deployed methods.
 
    All speakers called for more transparency by requiring blocking
    messages as well as publication and auditing of blocklists.
    Potentially even standardization could help.
 
-   Further on in the session, the possibility and prevalence for using
-   VPNs for circumvention has been discussed including user expectation
-   and an analysis of security short-comings of commercial VPN services.
+   Further on in the session, the possibility and prevalence of using
+   VPNs for circumvention has been discussed including user expectations
+   and an analysis of security shortcomings of commercial VPN services.
    The analysis presented in [RAMESH] has shown various problems that
-   lead to data leaks such leakage of IPv6 traffic, non-browser traffic
-   or at tunnel failure, not upholding user expectations especially when
-   used in authoritarian regimes for censorship circumvention or private
-   communication.
+   lead to data leaks such as leakage of IPv6 traffic, non-browser
+   traffic, or tunnel failure, not upholding user expectations,
+   especially when used in authoritarian regimes for censorship
+   circumvention or private communication.
 
-   The question how common the use of VPNs for circumvention is and its
-   legal implications, as VPNs are illegal in a few countries, as been
-   discussed.  E.g.  VPNs not officially banded in India but VPN
-   providers need to store log data and those, who haven’t complied,
+   The question of how common the use of VPNs for circumvention is and
+   its legal implications, as VPNs are illegal in a few countries, has
+   been discussed.  E.g.  VPNs are not officially banned in India but
+   VPN providers need to store log data and those, who haven’t complied,
    stopped serving India.  However, more data on VPN use and blocking
    might be needed.
 
-   After all, there is a cat and mouse game between censors and
-   circumvents, however continued work on protocol enhancements that
+   After all, there is a cat-and-mouse game between censors and
+   circumvents, however, continued work on protocol enhancements that
    protect user privacy is essential.
 
 2.4.  Conclusions
@@ -429,22 +430,22 @@ Table of Contents
 Appendix A.  Position Papers
 
    19 position papers were submitted to the workshop call for papers. 11
-   were selected for publication.  Paper that were not published either
+   were selected for publication.  Papers that were not published either
    (2) only provided a very prelimited analysis of an idea that was felt
-   to incomphrehensive for discussion at the workshop, or address
-   problem that were beyond the scope as dedciated for the workshop
-   discussion by e.g. discussing cyber security threads as a barrier for
-   participation or implication of technology in regulation that impose
-   blocking.  Both of these topics pose a potential severe risk on the
+   to be incomprehensive for discussion at the workshop, or addressed
+   problems that were beyond the scope as dedicated for the workshop
+   discussion e.g. discussing cyber security threads as a barrier for
+   participation or implication of technology in regulation that imposes
+   blocking.  Both of these topics pose a potentially severe risk on the
    open Internet, however, these risks might provide a high risk for all
-   Interent users but do not nessearily imply an unbalance.
+   Internet users but do not necessarily imply an unbalance.
 
    All accepted papers are available at:
    https://datatracker.ietf.org/group/biasws/materials/
 
    This is the list of all published papers:
 
-   Commuity Networks:
+   Community Networks:
 
    *  L.  M.  Martínez-Cervantes, R.  Guevara-Martínez: Community
       Networks and the Quest for Quality
@@ -477,7 +478,7 @@ Appendix A.  Position Papers
 
    *  L.Y.  Ohlsen: BIAS workshop - M-Lab Position Paper submission
 
-   Censorhsip:
+   Censorship:
 
    *  S.  Nurliza Samsudin: iMAP (Internet Monitoring Action Project)
       2023 Internet Censorship Report
