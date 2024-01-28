@@ -89,6 +89,9 @@ informative:
         ins:  R. Rennó
         name: Raquel Rennó
     date: January 2024
+  GAIA:
+    target: https://www.irtf.org/gaia.html
+    title: Global Access to the Internet for All Research Group
   SAMSUDIN:
     target: https://www.ietf.org/slides/slides-biasws-position-paper-by-raquel-renno-01.pdf
     title: iMAP (Internet Monitoring Action Project) 2023 Internet Censorship Report
@@ -195,9 +198,11 @@ Presentations ranged from highlighting the need for measuring Quality of Experie
 
 ### Maximising Connectivity: The Spectrum’s Vital Role in Technology Access
 
-{{RENNO}} called attention to the coveted 6GHz (part of the C-band with a desirable mix of coverage and capacity) as a prime choice for 5G technology while it is in common unlicensed use in the community networks (and small ISPs). Spectrum allocations directly impact industries and market access with ramifications for community networks. Further, there was a discussion on the geopolitical tension because of it.
+{{RENNO}} called attention to the coveted 6GHz (part of the C-band with a desirable mix of coverage and capacity) as a prime choice for International Mobile Telecommunication (IMT) for 5G technology while it is in common unlicensed use in the community networks (and small ISPs). Spectrum allocations directly impact industries and market access with ramifications for community networks. Further, there was a discussion on the geopolitical tension because of it.
 
 ### Discussion
+
+How can the technical community address the management gap and improve best practices for Community Networks? Is the increasing complexity of the Internet making it more challenging to establish connections, and should this be taken into account in the design of the Internet? Should the managebility consideration be expanded to explicitly consider Community Networks? Global Access to the Internet for All (GAIA) {{GAIA}} research group could be a venue for further discussion and research. Further discussion highlighted the need for readily available knowledge and tools for community networks as well as the tussle with market forces when commercial networks compete with community networks.
 
 ## Session 2: Digital Divide - Reports and Comments
 
