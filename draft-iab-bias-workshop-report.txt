@@ -5,9 +5,9 @@
 Network Working Group                                       M. Kühlewind
 Internet-Draft                                                          
 Intended status: Informational                                  D. Dhody
-Expires: 29 July 2024                                                   
+Expires: 31 July 2024                                                   
                                                                M. Knodel
-                                                         26 January 2024
+                                                         28 January 2024
 
 
    IAB Barriers to Internet Access of Services (BIAS) Workshop Report
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 29 July 2024.
+   This Internet-Draft will expire on 31 July 2024.
 
 Copyright Notice
 
@@ -174,7 +174,17 @@ Table of Contents
 
 2.1.1.  Community Networks and the Quest for Quality
 
-   [MARTINEZ]
+   [MARTINEZ] highlighted the need to address Quality of Experience
+   (QoE) in discussions around Community Networks.  As a community-
+   driven deployment, the knowledge and involvement of individuals can
+   vary; therefore, there are no guarantees of connectivity or quality
+   of service.  There is a need to focus on user expectations and how
+   they translate to measurable performance indicators.  Further, it
+   asks for better documenting best practices in deploying community
+   networks as well as considering manageability considerations for
+   community networks in protocol development.  Some existing resources
+   for Community Networks ([APC], [ISOC], and [TBB]) were shared by the
+   participants.
 
 2.1.2.  A ‘C’ in CDN: Access service to and from the Internet at cost
         for community networks
@@ -300,6 +310,9 @@ Table of Contents
 
 3.  Informative References
 
+   [APC]      "The Association for Progressive Communications (APC)",
+              n.d., <https://www.apc.org/>.
+
    [BASSO]    Basso, S., "How Internet censorship changed in Russia
               during the 1st year of military conflict in Ukraine",
               January 2024, <https://datatracker.ietf.org/meeting/
@@ -325,6 +338,10 @@ Table of Contents
               slides-biasws-closing-the-performance-and-management-gaps-
               with-satellite-internet-challenges-approaches-and-future-
               directions-01.pdf>.
+
+   [ISOC]     "Community networks help bridge the connectivity gap",
+              n.d., <https://www.internetsociety.org/action-plan/
+              community-networks/>.
 
    [MARTINEZ] Martínez-Cervantes, L. M. and R. Guevara-Martínez,
               "Community Networks and the Quest for Quality", January
@@ -357,6 +374,9 @@ Table of Contents
 
    [SDG]      "Sustainable Development Goals", n.d.,
               <https://sdgs.un.org/goals>.
+
+   [TBB]      "Tribal Broadband Bootcamp", n.d.,
+              <https://tribalbroadbandbootcamp.org/>.
 
    [WANG]     Raman, R. S., Wang, M., Dalek, J., Mayer, J., and R.
               Ensafi, "Network Measurement Methods for Locating and
