@@ -206,11 +206,13 @@ How can the technical community address the management gap and improve best prac
 
 TODO Session 2
 
-## Session 3: Censorship - Measurements
+## Session 3: Censorship - Reports and Circumvention
 
 This session focused on reports of censorship as observed during recent years in different parts of the world, as well as on the use of and expectation on censorship circumvention tools, mainly the use of secure VPN services.
 
 The censorship reports, with a focus on Asia, and specifically India, as well as Russia, as an example where censorship has changed significantly recently, discussed the legal frameworks and court acts that put legal obligations on regional network providers to block traffic. Further, measurements to validate the blocking as well as analyses of how blocking is implemented were discussed, i.e. which protocols are used but also which kind of devices are used to configure the blocking rules and where are they deployed.
+
+### Censorship Orders, Measurements, and Device Analysis
 
 {{SAMSUDIN}} reported on confirmed blocking from 10 countries (Cambodia, Hong Kong (China), India, Indonesia, Malaysia, Myanmar, Philippines, Thailand, Timor-Leste, Vietnam) in the period from 1 July 2022 to 30 June 2023. The blocking was either confirmed by OONI measurements for existing blocking fingerprints, heuristics i.e. for new blocking fingerprints as well as news reports of blocking orders or user experiences. Most of these countries block specific content such as porn, gambling, or certain news pages. Interestingly the block in Hong Kong and Myanmar is focused on the military and governmental pages of foreign countries. Blocking is often realized by either DNS tampering or HTTP tampering. For DNS, either a decided IP address, a Bogon IP address (127.0.0.1), or an empty domain (nxdomain) is used. In case of DNS tampering using a decided IP address or HTTP tampering some countries provide a block page that exposes the blocking, however, more transparency about blocking is applied as requested by civil society organizations and the iMAP project.
 
@@ -223,9 +225,13 @@ E.g. for the case of Azerbaijan and Kazakhstan, they showed that a significant p
 
 All speakers called for more transparency by requiring blocking messages as well as publication and auditing of blocklists. Potentially even standardization could help.
 
+### Use of VPNs for Censorship Circumvents and user expectations
+
 Further on in the session, the possibility and prevalence of using VPNs for circumvention has been discussed including user expectations and an analysis of security shortcomings of commercial VPN services. The analysis presented in {{RAMESH}} has shown various problems that lead to data leaks such as leakage of IPv6 traffic, non-browser traffic, or tunnel failure, not upholding user expectations, especially when used in authoritarian regimes for censorship circumvention or private communication.
 
 The question of how common the use of VPNs for circumvention is and its legal implications, as VPNs are illegal in a few countries, has been discussed. E.g. VPNs are not officially banned in India but VPN providers need to store log data and those, who haven’t complied, stopped serving India. However, more data on VPN use and blocking might be needed.
+
+### Discussion
 
 After all, there is a cat-and-mouse game between censors and circumvents, however, continued work on protocol enhancements that protect user privacy is essential.
 
