@@ -184,19 +184,17 @@ The first day of the workshop focused on the role of Community Networks {{RFC796
 
 Presentations ranged from highlighting the need for measuring Quality of Experience (QoE) for Community Networks, to the potential role the Content Delivery Network (CDN) can play in Community Networks, to the role of Satellite Networks, and finally, to the vital role of the spectrum in this space.
 
-### Community Networks and the Quest for Quality
+### The Quality of Community Networks
 
 {{MARTINEZ}} highlighted the need to address Quality of Experience (QoE) in discussions around Community Networks. As a community-driven deployment, the knowledge and involvement of individuals can vary; therefore, there are no guarantees of connectivity or quality of service. There is a need to focus on user expectations and how they translate to measurable performance indicators. Further, it asks for better documenting best practices in deploying community networks as well as considering manageability considerations for community networks in protocol development. {{GUIFI}} as an example Community Network was discussed and some existing resources for Community Networks ({{APC}}, {{ISOC}}, and {{TBB}}) were shared by the participants.
 
-### A ‘C’ in CDN: Access service to and from the Internet at cost for Community Networks
+The inconsistent quality and performance of Satellite Internet is a gap for community networks that rely on non-terrestrial networks (NTNs) for internet access {{HU}}.
+
+### Strengthening Community Networks
 
 {{BENSON}} focused on the prohibitive cost of the transit and Internet service for Community Networks and argued for Content Delivery Networks (CDNs) to provide transit-like and Internet services at no more than at-cost in a mutually beneficial way. Community networks still need backhaul to and from the CDN’s point of presence and models for community-backhaul and open-source CDNs were highlighted. Discussion included {{PANGEA}} project status as well as legal and commercial considerations in such use of CDNs.
 
-### Closing the Performance and Management Gaps with Satellite Internet: Challenges, Approaches, and Future Directions
-
 {{HU}} highlighted that Satellite Internet provided by advanced LEO satellite constellations can play a pivotal role in closing the connectivity gap in the urban-rural digital divide via Satellite-dependent community networks. There existing known performance and management gaps that need focus to enable Satellite Internet to resolve the divide. Further, research directions such as multi-layer satellite networking, autonomous maintenance, and integration between Terrestrial and Non-Terrestrial networks were suggested.
-
-### Maximising Connectivity: The Spectrum’s Vital Role in Technology Access
 
 {{RENNO}} called attention to the coveted 6GHz (part of the C-band with a desirable mix of coverage and capacity) as a prime choice for International Mobile Telecommunication (IMT) for 5G technology while it is in common unlicensed use in the community networks (and small ISPs). Spectrum allocations directly impact industries and market access with ramifications for community networks. Further, there was a discussion on the geopolitical tension because of it.
 
