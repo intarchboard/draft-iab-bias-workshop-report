@@ -5,9 +5,9 @@
 Network Working Group                                       M. Kühlewind
 Internet-Draft                                                          
 Intended status: Informational                                  D. Dhody
-Expires: 1 August 2024                                                  
+Expires: 2 August 2024                                                  
                                                                M. Knodel
-                                                         29 January 2024
+                                                         30 January 2024
 
 
    IAB Barriers to Internet Access of Services (BIAS) Workshop Report
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 1 August 2024.
+   This Internet-Draft will expire on 2 August 2024.
 
 Copyright Notice
 
@@ -257,19 +257,18 @@ Table of Contents
    (Cambodia, Hong Kong (China), India, Indonesia, Malaysia, Myanmar,
    Philippines, Thailand, Timor-Leste, Vietnam) in the period from 1
    July 2022 to 30 June 2023.  The blocking was either confirmed by OONI
-   measurements for existing blocking fingerprints, heuristics i.e. for
-   new blocking fingerprints as well as news reports of blocking orders
+   measurements for existing blocking fingerprints, heuristics, i.e. for
+   new blocking fingerprints as well as news reports of blocking orders,
    or user experiences.  Most of these countries block specific content
    such as porn, gambling, or certain news pages.  Interestingly the
-   block in Hong Kong and Myanmar is focused on the military and
+   blocking in Hong Kong and Myanmar is focused on the military and
    governmental pages of foreign countries.  Blocking is often realized
    by either DNS tampering or HTTP tampering.  For DNS, either a decided
-   IP address, a Bogon IP address (127.0.0.1), or an empty domain
+   IP address, a bogon IP address (127.0.0.1), or an empty domain
    (nxdomain) is used.  In case of DNS tampering using a decided IP
    address or HTTP tampering some countries provide a block page that
    exposes the blocking, however, more transparency about blocking is
-   applied as requested by civil society organizations and the iMAP
-   project.
+   requested by civil society organizations and the iMAP project.
 
    [GROVER] further focused the discussion on online censorship in
    India, Pakistan, and Indonesia.  In India, where providers are
@@ -283,23 +282,23 @@ Table of Contents
    (depending on the website), and all but one provided censorship
    notices.  Providers blocked between 1892 to 3721 (of 4379) pages with
    only 1115 (27.64%) of pages blocked by all ISPs.  In contrast, e.g.
-   in Pakistan the government can also order the IPSs to perform
-   blocking, and blocking has even been observed in the past on the IXP
+   in Pakistan, where the government can also order the IPSs to perform
+   blocking and blocking has even been observed in the past on the IXP
    level, however, since 2020 there is also a central Web Monitoring
-   System deployed.  In Indonesia initially, the government guided ISPs,
-   however, the regulation was updated in 2020 and now allows Indonesian
-   ISPs to block websites at their discretion.  But there was also in
-   2022 a proposal to centralise DNS.  In Indonesia, the block is
-   publicly available but without any indication of why something is
-   blocked.
+   System deployed.  In Indonesia initially the government guided ISPs
+   in how to perform the blocking but the regulation was updated in 2020
+   and now allows Indonesian ISPs to block websites at their discretion.
+   But there was also in 2022 a proposal to centralise DNS.  In
+   Indonesia, the block list is publicly available but without any
+   indication of why something is blocked.
 
    [BASSO] reported that for Russia a high increase in additions to the
    Roskomnadzor’s block list was observed in March 2022 as well as in
    December 2022, foremost covering news pages but also covering human
    rights organizations and social media, where more than 3500 blocking
-   order are added to a list by an "Unknown body".  Further blocking of
-   domains that are not in the official Roskomnadzor’s list has been
-   observed as well.
+   orders were added to the list by an "Unknown body".  Further,
+   blocking of domains that are not in the official Roskomnadzor’s list
+   has been observed as well.
 
    An invited talk presented the work in [WANG] on locating censorship
    devices by using HTTP and TLS traceroutes, identifying device vendors
