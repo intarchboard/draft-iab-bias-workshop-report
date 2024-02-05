@@ -111,7 +111,7 @@ informative:
   Grover2023:
     target: https://archive.org/details/eaten-by-the-internet/
     title: The infrastructure of censorship in Asia
-    author: 
+    author:
       -
         ins:  G. Grover
         name: Gurshabad Grover
@@ -122,7 +122,7 @@ informative:
   Singh2020:
     target: https://dl.acm.org/doi/abs/10.1145/3394231.3397891
     title: How India Censors the Web
-    author: 
+    author:
       -
         ins:  K. Singh
         name: Kushagra Singh
@@ -179,16 +179,16 @@ informative:
       -
         ins: N. Nazemi
         name: Niousha Nazemi
-      - 
+      -
         ins: O. Tavallaie
         name: Omid Tavallaie
-      - 
+      -
         ins: A. Y. Zomaya
         name: Albert Y. Zomaya
     date: 2023
   HUSSAIN:
     target: https://www.ietf.org/slides/slides-biasws-universal-acceptance-of-domain-names-and-email-addresses-a-key-to-digital-inclusion-01.pdf
-    title: Universal Acceptance of Domain Names and Email Addresses: A Key to Digital Inclusion
+    title: Universal Acceptance of Domain Names and Email Addresses - A Key to Digital Inclusion
     author:
       -
         ins: S. Hussain
@@ -210,7 +210,7 @@ informative:
       -
         ins: H. Ahmed
         name: Haseeb Ahmed
-      - 
+      -
         ins: A Ali
         name: Ayesha Ali
     date: September 2023
@@ -281,7 +281,7 @@ The second day of workshops was essential to understanding the nature of the dig
 Ralph Holz presented research that exposes the more limited DNS-mediated access to government websites by indigenous communities in Australia as compared to less disadvantaged users in the same population in "Evidence for a digital divide? Measuring DNS dependencies in the context of the indigenous population of Australia". {{HOLZ}} DNS dependency trends were analysed between two lists of domains serving Australian government sites for Indigenous users and the general population. Researchers found, "evidence that dependencies for the indigenous population are indeed differently configured," indicative of a difference in service provisioning. However qualitative follow-up research is needed to interrogate both the potential reasons for these differences and whether the differences contribute to a "digital divide" that is tangible for Indigenous users.
 
 ### Lack of consistent acceptance of language scripts
-On the topic of availability of Internet services and content in multiple languages "Universal Acceptance of Domain Names and Email Addresses: A Key to Digital Inclusion" was presented by Sarmad Hussain of ICANN. {{HUSSEIN}} The ICANN community has increased the options for multilingual identifiers through the expansion of the Internet’s DNS for use in domains and email addresses. However, while the work of technical specification and policy recommendations is complete, much work remains to deploy a multiligualized internet. Today there are around 150 internationalised domain names (IDNs) but the barriers to equal rollout of these scripts at the domain level are hindered primarily by software and applications that do not yet recognise these new scripts. "Universal Acceptance" is a programme of action for the internet community at large that can ensure IDNs are accepted and treated consistently.
+On the topic of availability of Internet services and content in multiple languages "Universal Acceptance of Domain Names and Email Addresses: A Key to Digital Inclusion" was presented by Sarmad Hussain of ICANN. {{HUSSAIN}} The ICANN community has increased the options for multilingual identifiers through the expansion of the Internet’s DNS for use in domains and email addresses. However, while the work of technical specification and policy recommendations is complete, much work remains to deploy a multiligualized internet. Today there are around 150 internationalised domain names (IDNs) but the barriers to equal rollout of these scripts at the domain level are hindered primarily by software and applications that do not yet recognise these new scripts. "Universal Acceptance" is a programme of action for the internet community at large that can ensure IDNs are accepted and treated consistently.
 
 ### Web Affordability and Inclusiveness
 In "A Framework for Improving Web Affordability and Inclusiveness" Rumaisa Habib presented research on the connection between website size and cost to end users. {{HABIB}} This critical inquiry presents access in terms of affordability and through measurement demonstrates that the material costs to end users who pay for their connection based on the volume of data they download and upload have risen as the complexity of the web grows. Their research provides a framework for optimisation based on end-user affordability. This framework is anchored to reality: it proposes a fairness metric and suggests systematic adaptations to Web complexity based on "geographic variations in mobile broadband prices and income levels."
@@ -340,29 +340,29 @@ This is the list of all published papers:
 
 Community Networks:
 
-* L. M. Martínez-Cervantes, R. Guevara-Martínez:	Community Networks and the Quest for Quality
-* T. Benson, M. Fayed:	A ‘C’ in CDN: Access service to and from the Internet for community networks at-cost
-* P. Hu:	Closing the Performance and Management Gaps with Satellite Internet: Challenges, Approaches, and Future Directions
-* R. Rennó:	Maximising Connectivity: The Spectrum's Vital Role in Technology Access
+* L. M. Martínez-Cervantes, R. Guevara-Martínez:    Community Networks and the Quest for Quality
+* T. Benson, M. Fayed:  A ‘C’ in CDN: Access service to and from the Internet for community networks at-cost
+* P. Hu:    Closing the Performance and Management Gaps with Satellite Internet: Challenges, Approaches, and Future Directions
+* R. Rennó: Maximising Connectivity: The Spectrum's Vital Role in Technology Access
 
 Digital Divide:
 
-* R. Holz, N. Nazemi, O. Tavallaie, A.Y. Zomaya:	Evidence for a digital divide? Measuring DNS dependencies in the context of the indigenous population of Australia
-* S. Hussain:	Universal Acceptance of Domain Names and Email Addresses: A Key to Digital Inclusion
-* R. Habib, S. Tanveer, A. Inam, H. Ahmed, A. Ali, Z.A. Uzmi, Z.A. Qazi, I.A. Qazi:	A Framework for Improving Web Affordability and Inclusiveness
-* J. Ott, G. Bartolomeo, M.M. Bese, R. Bose, M. Bosk, D. Guzman, L. Kärkkäinen, M. Kosek, N. Mohan:	The Internet: Only for the Fast (and Furious)?
-* L.Y. Ohlsen:	BIAS workshop - M-Lab Position Paper submission
+* R. Holz, N. Nazemi, O. Tavallaie, A.Y. Zomaya:    Evidence for a digital divide? Measuring DNS dependencies in the context of the indigenous population of Australia
+* S. Hussain:   Universal Acceptance of Domain Names and Email Addresses: A Key to Digital Inclusion
+* R. Habib, S. Tanveer, A. Inam, H. Ahmed, A. Ali, Z.A. Uzmi, Z.A. Qazi, I.A. Qazi: A Framework for Improving Web Affordability and Inclusiveness
+* J. Ott, G. Bartolomeo, M.M. Bese, R. Bose, M. Bosk, D. Guzman, L. Kärkkäinen, M. Kosek, N. Mohan: The Internet: Only for the Fast (and Furious)?
+* L.Y. Ohlsen:  BIAS workshop - M-Lab Position Paper submission
 
 Censorship:
 
-* S. Nurliza Samsudin:	iMAP (Internet Monitoring Action Project) 2023 Internet Censorship Report
-* G. Grover:	The infrastructure of censorship in Asia
-* S. Basso:	How Internet censorship changed in Russia during the 1st year of military conflict in Ukraine
+* S. Nurliza Samsudin:  iMAP (Internet Monitoring Action Project) 2023 Internet Censorship Report
+* G. Grover:    The infrastructure of censorship in Asia
+* S. Basso: How Internet censorship changed in Russia during the 1st year of military conflict in Ukraine
 
 In addition to the submitted paper two invited talks were presented based on published papers:
 
-* R. Sundara Raman, M. Wang, J. Dalek, J. Mayer, R. Ensafi:	Network Measurement Methods for Locating and Examining Censorship Devices
-* R. Ramesh, A. Vyas, R. Ensafi:	“All of them claim to be the best”: A multi-perspective study of VPN users and VPN providers
+* R. Sundara Raman, M. Wang, J. Dalek, J. Mayer, R. Ensafi: Network Measurement Methods for Locating and Examining Censorship Devices
+* R. Ramesh, A. Vyas, R. Ensafi:    “All of them claim to be the best”: A multi-perspective study of VPN users and VPN providers
 
 # Workshop Participants
 
