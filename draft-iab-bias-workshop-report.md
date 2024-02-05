@@ -144,7 +144,51 @@ informative:
         ins:  R. Ramesh
         name: Reethika Ramesh
     date: January 2024
-
+  HOLZ:
+    target: https://www.ietf.org/slides/slides-biasws-evidence-for-a-digital-divide-measuring-dns-dependencies-in-the-context-of-the-indigenous-population-of-australia-00.pdf
+    title: Evidence for a digital divide? Measuring DNS dependencies in the context of the indigenous population of Australia
+    author:
+      -
+        ins: R. Holz
+        name: Ralph Holz
+      -
+        ins: N. Nazemi
+        name: Niousha Nazemi
+      - 
+        ins: O. Tavallaie
+        name: Omid Tavallaie
+      - 
+        ins: A. Y. Zomaya
+        name: Albert Y. Zomaya
+    date: 2023
+  HUSSAIN:
+    target: https://www.ietf.org/slides/slides-biasws-universal-acceptance-of-domain-names-and-email-addresses-a-key-to-digital-inclusion-01.pdf
+    title: Universal Acceptance of Domain Names and Email Addresses: A Key to Digital Inclusion
+    author:
+      -
+        ins: S. Hussain
+        name: Sarmad Husain
+    date: 2023
+  HABIB:
+    target: https://www.ietf.org/slides/slides-biasws-a-framework-for-improving-web-affordability-and-inclusiveness-00.pdf
+    title: A Framework for Improving Web Affordability and Inclusiveness
+    author:
+      -
+        ins: R. Habib
+        name: Rumaisa Habib
+      -
+        ins: S. Tanveer
+        name: Sarah Tanveer
+      -
+        ins: A. Inam
+        name: Aimen Inam
+      -
+        ins: H. Ahmed
+        name: Haseeb Ahmed
+      - 
+        ins: A Ali
+        name: Ayesha Ali
+    date: September 2023
 
 --- abstract
 
@@ -204,7 +248,28 @@ How can the technical community address the management gap and improve best prac
 
 ## Session 2: Digital Divide - Reports and Comments
 
-TODO Session 2
+Critical internet infrastructure affects many aspects of our society significantly, although differently, the inequitable aspects of which are typically referred to as "digital inclusion," signifying that in efforts to digitalise society there are those left out due to what is typically called the digital divide," a related term specific to access to the Internet. These concepts together demonstrate that even if Internet connectivity is available, for some there will remain challenges towards achieving equality. This becomes especially significant as governments view the Internet as an important tool to help them reach the Sustainable Development Goals (SDG)[1] and to globally support human rights.
+
+The second day of workshops was essential to understanding the nature of the digital divide. Presentations of reports interrogated at least three key aspects of the digital divide, though there is recognition that there may be more technical aspects of the digital divide that were not present. Those were: differences between population demographics in the provision of online resources by governments, inequality in the use of multilingualized domains and email addresses, and increase costs for end user downloads of contemporary websites' sizes.
+
+### Disparities in service provision
+Ralph Holz presented research that exposes the more limited DNS-mediated access to government website by indigenous communities in Australia as compared to less disadvantaged users in the same population in "Evidence for a digital divide? Measuring DNS dependencies in the context of the indigenous population of Australia". {{HOLZ}} DNS dependency trends were analysed between two lists of domains serving Australian government sites for Indigenous users and the general population. Researchers found, "evidence that dependencies for the indigenous population are indeed differently configured," indicative of a difference in service provisioning. However qualitative follow-up research is needed to interogate both the potential reasons for these differences and whether the differences contribute to a "digital divide" that is tangible for Indigenous users.
+
+### Lack of consistent acceptance of language scripts
+On the topic of availability of Internet services and content in multiple languages "Universal Acceptance of Domain Names and Email Addresses: A Key to Digital Inclusion" was presented by Sarmad Hussain of ICANN. {{HUSSEIN}} The ICANN community has increased the options for mulitlingual identifiers through the expansion of the Internet’s DNS for use in domains and email addresses. However while the work of technical specification and policy recommenations are complete, much work remains to actually deploy a multiligualized internet. Today there are around 150 internationalised domain names (IDNs) but the barriers to equal roll out of these scripts at the domain level are hindered primarily by software and applications that do not yet recognise these new scripts. "Universal Acceptance" is a programme of action for the internet community at large that can ensure IDNs are accepted and treated consistently.
+
+### 
+In "A Framework for Improving Web Affordability and Inclusiveness" Rumaisa Habib presented research on the connection between website size and cost to end users. {{HABIB}} This critical inquiry presents access in terms of affordability and through measurement demonstrates that the material costs to end users who pay for their connection based on the volume of data they download and upload, have risen as the complexity of the web grows. Their research provides a framework for optimisation based on end user affordability. This framework is anchored to reality: it proposes a fairness metric and suggests systematic adaptations to Web complexity based on "geographic variations in mobile broadband prices and income levels."
+
+### M-Lab
+
+[tbd]
+
+### Discussion
+
+These three reports discuss very different aspects of current inequalities in Internet access in various parts of the world: service provision, availability, and economic costs. Notably the reports discuss trends that exacerbate the digital divide beyond the question of connectivity or whether users have access to the Internet, potentially bringing in concrete ways that the IETF community can address digital inclusion within its remit.
+
+Discussants noted that while there are some interesting aspects to the problem of the digital divide, such as measurements and frameworks, most of the work is getting this work to the right people at the policy layer so there is an importance of communicating this technical evidence to the right people. The IETF's role could be to build consensus on what are the proper solutions presented to decision makers that puts research and measurement not only in context, but provides a consensus driven solution space. Another method to better communicate this research is by telling stories of end users in more relatable and relevant terms, which is often a challenge for the technical level and a role for more diverse stakeholders at the more local level.
 
 ## Session 3: Censorship - Reports and Circumvention
 
