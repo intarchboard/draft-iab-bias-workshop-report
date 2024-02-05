@@ -5,9 +5,9 @@
 Network Working Group                                       M. Kühlewind
 Internet-Draft                                                          
 Intended status: Informational                                  D. Dhody
-Expires: 2 August 2024                                                  
+Expires: 8 August 2024                                                  
                                                                M. Knodel
-                                                         30 January 2024
+                                                         5 February 2024
 
 
    IAB Barriers to Internet Access of Services (BIAS) Workshop Report
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 2 August 2024.
+   This Internet-Draft will expire on 8 August 2024.
 
 Copyright Notice
 
@@ -82,6 +82,11 @@ Table of Contents
        2.1.2.  Strengthening Community Networks
        2.1.3.  Discussion
      2.2.  Session 2: Digital Divide - Reports and Comments
+       2.2.1.  Disparities in service provision
+       2.2.2.  Lack of consistent acceptance of language scripts
+       2.2.3.  Web Affordability and Inclusiveness
+       2.2.4.  M-Lab
+       2.2.5.  Discussion
      2.3.  Session 3: Censorship - Reports and Circumvention
        2.3.1.  Censorship Orders, Measurements, and Device Analysis
        2.3.2.  Use of VPNs for Censorship Circumvents and user
@@ -111,7 +116,7 @@ Table of Contents
    inequalities in the digital age when accessing content and services.
    There are more and more barriers to meaningful access to the services
    and applications that run on the Internet.  Even if Internet
-   connectivity is available, information and services access may remain
+   connectivity is available, information and service access may remain
    challenged and unequal.
 
    This IAB workshop has aimed
@@ -233,7 +238,102 @@ Table of Contents
 
 2.2.  Session 2: Digital Divide - Reports and Comments
 
-   TODO Session 2
+   Critical internet infrastructure affects many aspects of our society
+   significantly, although differently, the inequitable aspects of which
+   are typically referred to as "digital inclusion" signifying that in
+   efforts to digitalise society, there are those left out due to what
+   is typically called the "digital divide", a related term specific to
+   access to the Internet.  These concepts together demonstrate that
+   even if Internet connectivity is available, for some there will
+   remain challenges towards achieving equality.  This becomes
+   especially significant as governments view the Internet as an
+   important tool to help them reach the Sustainable Development Goals
+   (SDG) [SDG] and to globally support human rights.
+
+   The second day of workshops was essential to understanding the nature
+   of the digital divide.  Presentations of reports interrogated at
+   least three key aspects of the digital divide, though there is
+   recognition that there may be more technical aspects of the digital
+   divide that were not present.  Those were: differences between
+   population demographics in the provision of online resources by
+   governments, inequality in the use of multilingualized domains and
+   email addresses, and increased costs for end-user downloads of
+   contemporary websites' sizes.
+
+2.2.1.  Disparities in service provision
+
+   Ralph Holz presented research that exposes the more limited DNS-
+   mediated access to government websites by indigenous communities in
+   Australia as compared to less disadvantaged users in the same
+   population in "Evidence for a digital divide?  Measuring DNS
+   dependencies in the context of the indigenous population of
+   Australia".  [HOLZ] DNS dependency trends were analysed between two
+   lists of domains serving Australian government sites for Indigenous
+   users and the general population.  Researchers found, "evidence that
+   dependencies for the indigenous population are indeed differently
+   configured," indicative of a difference in service provisioning.
+   However qualitative follow-up research is needed to interrogate both
+   the potential reasons for these differences and whether the
+   differences contribute to a "digital divide" that is tangible for
+   Indigenous users.
+
+2.2.2.  Lack of consistent acceptance of language scripts
+
+   On the topic of availability of Internet services and content in
+   multiple languages "Universal Acceptance of Domain Names and Email
+   Addresses: A Key to Digital Inclusion" was presented by Sarmad
+   Hussain of ICANN.  [HUSSAIN] The ICANN community has increased the
+   options for multilingual identifiers through the expansion of the
+   Internet’s DNS for use in domains and email addresses.  However,
+   while the work of technical specification and policy recommendations
+   is complete, much work remains to deploy a multiligualized internet.
+   Today there are around 150 internationalised domain names (IDNs) but
+   the barriers to equal rollout of these scripts at the domain level
+   are hindered primarily by software and applications that do not yet
+   recognise these new scripts.  "Universal Acceptance" is a programme
+   of action for the internet community at large that can ensure IDNs
+   are accepted and treated consistently.
+
+2.2.3.  Web Affordability and Inclusiveness
+
+   In "A Framework for Improving Web Affordability and Inclusiveness"
+   Rumaisa Habib presented research on the connection between website
+   size and cost to end users.  [HABIB] This critical inquiry presents
+   access in terms of affordability and through measurement demonstrates
+   that the material costs to end users who pay for their connection
+   based on the volume of data they download and upload have risen as
+   the complexity of the web grows.  Their research provides a framework
+   for optimisation based on end-user affordability.  This framework is
+   anchored to reality: it proposes a fairness metric and suggests
+   systematic adaptations to Web complexity based on "geographic
+   variations in mobile broadband prices and income levels."
+
+2.2.4.  M-Lab
+
+   TBD
+
+2.2.5.  Discussion
+
+   These three reports discuss very different aspects of current
+   inequalities in Internet access in various parts of the world:
+   service provision, availability, and economic costs.  Notably, the
+   reports discuss trends that exacerbate the digital divide beyond the
+   question of connectivity or whether users have access to the
+   Internet, potentially bringing concrete ways that the IETF community
+   can address digital inclusion within its remit.
+
+   Discussants noted that while there are some interesting aspects to
+   the problem of the digital divide, such as measurements and
+   frameworks, most of the work is getting this work to the right people
+   at the policy layer so there is an importance of communicating this
+   technical evidence to the right people.  The IETF's role could be to
+   build consensus on what the proper solutions presented to decision
+   makers that put research and measurement not only in context but also
+   in a consensus-driven solution space.  Another method to better
+   communicate this research is by telling stories of end users in more
+   relatable and relevant terms, which is often a challenge for the
+   technical level and a role for more diverse stakeholders at the more
+   local level.
 
 2.3.  Session 3: Censorship - Reports and Circumvention
 
@@ -277,20 +377,20 @@ Table of Contents
    on 4379 blocked websites (based on court orders, user reports, and
    publicly available or leaked government orders) on DNS poisoning/
    injection or HTTP/SNI-based censorship.  Used censorship techniques
-   and websites blocked were different between ISPs.  Only one ISP used
-   SNI-based blocking.  Multiple ISPs used two different techniques
-   (depending on the website), and all but one provided censorship
-   notices.  Providers blocked between 1892 to 3721 (of 4379) pages with
-   only 1115 (27.64%) of pages blocked by all ISPs.  In contrast, e.g.
-   in Pakistan, where the government can also order the IPSs to perform
-   blocking and blocking has even been observed in the past on the IXP
-   level, however, since 2020 there is also a central Web Monitoring
-   System deployed.  In Indonesia initially the government guided ISPs
-   in how to perform the blocking but the regulation was updated in 2020
-   and now allows Indonesian ISPs to block websites at their discretion.
-   But there was also in 2022 a proposal to centralise DNS.  In
-   Indonesia, the block list is publicly available but without any
-   indication of why something is blocked.
+   and websites blocked were different across ISPs.  Multiple ISPs used
+   two different techniques (depending on the website), and all but one
+   provided censorship notices.  Providers blocked between 1892 to 3721
+   (of 4379) pages with only 1115 (27.64%) of pages blocked by all ISPs.
+   [Singh2020] In contrast, in Pakistan, the government can also order
+   the IPSs to perform blocking and blocking has even been observed in
+   the past on the IXP level.  Since 2020, there is also a central Web
+   Monitoring System deployed at lines of international connectivity.
+   In Indonesia, initially the government guided ISPs in how to perform
+   the blocking.  The regulations were updated in 2020 to allow
+   Indonesian ISPs to block websites at their discretion.  In 2022,
+   there was a proposal by internet service providers to centralise DNS.
+   In Indonesia, a partial block list is publicly available, but without
+   any indication of why something is blocked.  [Grover2023]
 
    [BASSO] reported that for Russia a high increase in additions to the
    Roskomnadzor’s block list was observed in March 2022 as well as in
@@ -369,7 +469,25 @@ Table of Contents
               03/materials/slides-interim-2024-biasws-03-sessa-online-
               censorship-in-india-pakistan-and-indonesia-00>.
 
+   [Grover2023]
+              Grover, G. and C. Cath, "The infrastructure of censorship
+              in Asia", October 2023,
+              <https://archive.org/details/eaten-by-the-internet/>.
+
    [GUIFI]    "Guifi.net", n.d., <https://guifi.net/en>.
+
+   [HABIB]    Habib, R., Tanveer, S., Inam, A., Ahmed, H., and A. Ali,
+              "A Framework for Improving Web Affordability and
+              Inclusiveness", September 2023,
+              <https://www.ietf.org/slides/slides-biasws-a-framework-
+              for-improving-web-affordability-and-inclusiveness-00.pdf>.
+
+   [HOLZ]     Holz, R., Nazemi, N., Tavallaie, O., and A. Y. Zomaya,
+              "Evidence for a digital divide? Measuring DNS dependencies
+              in the context of the indigenous population of Australia",
+              2023, <https://www.ietf.org/slides/slides-biasws-evidence-
+              for-a-digital-divide-measuring-dns-dependencies-in-the-
+              context-of-the-indigenous-population-of-australia-00.pdf>.
 
    [HU]       Hu, P., "Closing the Performance and Management Gaps with
               Satellite Internet - Challenges, Approaches, and Future
@@ -377,6 +495,12 @@ Table of Contents
               slides-biasws-closing-the-performance-and-management-gaps-
               with-satellite-internet-challenges-approaches-and-future-
               directions-01.pdf>.
+
+   [HUSSAIN]  Hussain, S., "Universal Acceptance of Domain Names and
+              Email Addresses - A Key to Digital Inclusion", 2023,
+              <https://www.ietf.org/slides/slides-biasws-universal-
+              acceptance-of-domain-names-and-email-addresses-a-key-to-
+              digital-inclusion-01.pdf>.
 
    [ISOC]     "Community networks help bridge the connectivity gap",
               n.d., <https://www.internetsociety.org/action-plan/
@@ -416,6 +540,11 @@ Table of Contents
 
    [SDG]      "Sustainable Development Goals", n.d.,
               <https://sdgs.un.org/goals>.
+
+   [Singh2020]
+              Singh, K., Grover, G., and V. Bansal, "How India Censors
+              the Web", July 2020,
+              <https://dl.acm.org/doi/abs/10.1145/3394231.3397891>.
 
    [TBB]      "Tribal Broadband Bootcamp", n.d.,
               <https://tribalbroadbandbootcamp.org/>.
