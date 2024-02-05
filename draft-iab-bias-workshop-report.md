@@ -108,6 +108,31 @@ informative:
         ins:  G. Grover
         name: Gurshabad Grover
     date: January 2024
+  Grover2023:
+    target: https://archive.org/details/eaten-by-the-internet/
+    title: The infrastructure of censorship in Asia
+    author: 
+      -
+        ins:  G. Grover
+        name: Gurshabad Grover
+      -
+        ins:  C. Cath
+        name: Corinne Cath (ed.)
+    date: October 2023
+  Singh2020:
+    target: https://dl.acm.org/doi/abs/10.1145/3394231.3397891
+    title: How India Censors the Web
+    author: 
+      -
+        ins:  K. Singh
+        name: Kushagra Singh
+      -
+        ins:  G. Grover
+        name: Gurshabad Grover
+      -
+        ins:  V. Bansal
+        name: Varun Bansal
+    date: July 2020
   BASSO:
     target: https://datatracker.ietf.org/meeting/interim-2024-biasws-03/materials/slides-interim-2024-biasws-03-sessa-online-censorship-in-india-pakistan-and-indonesia-00
     title: How Internet censorship changed in Russia during the 1st year of military conflict in Ukraine
@@ -281,7 +306,7 @@ The censorship reports, with a focus on Asia, and specifically India, as well as
 
 {{SAMSUDIN}} reported on confirmed blocking from 10 countries (Cambodia, Hong Kong (China), India, Indonesia, Malaysia, Myanmar, Philippines, Thailand, Timor-Leste, Vietnam) in the period from 1 July 2022 to 30 June 2023. The blocking was either confirmed by OONI measurements for existing blocking fingerprints, heuristics, i.e. for new blocking fingerprints as well as news reports of blocking orders, or user experiences. Most of these countries block specific content such as porn, gambling, or certain news pages. Interestingly the blocking in Hong Kong and Myanmar is focused on the military and governmental pages of foreign countries. Blocking is often realized by either DNS tampering or HTTP tampering. For DNS, either a decided IP address, a bogon IP address (127.0.0.1), or an empty domain (nxdomain) is used. In case of DNS tampering using a decided IP address or HTTP tampering some countries provide a block page that exposes the blocking, however, more transparency about blocking is requested by civil society organizations and the iMAP project.
 
-{{GROVER}} further focused the discussion on online censorship in India, Pakistan, and Indonesia. In India, where providers are responsible for implementing the blocking but no method is mandated, the six major ISPs (covering 98.82% of all subscribers) were tested on 4379 blocked websites (based on court orders, user reports, and publicly available or leaked government orders) on DNS poisoning/injection or HTTP/SNI-based censorship. Used censorship techniques and websites blocked were different between ISPs. Only one ISP used SNI-based blocking. Multiple ISPs used two different techniques (depending on the website), and all but one provided censorship notices. Providers blocked between 1892 to 3721 (of 4379) pages with only 1115 (27.64%) of pages blocked by all ISPs. In contrast, e.g. in Pakistan, where the government can also order the IPSs to perform blocking and blocking has even been observed in the past on the IXP level, however, since 2020 there is also a central Web Monitoring System deployed. In Indonesia initially the government guided ISPs in how to perform the blocking but the regulation was updated in 2020 and now allows Indonesian ISPs to block websites at their discretion. But there was also in 2022 a proposal to centralise DNS. In Indonesia, the block list is publicly available but without any indication of why something is blocked.
+{{GROVER}} further focused the discussion on online censorship in India, Pakistan, and Indonesia. In India, where providers are responsible for implementing the blocking but no method is mandated, the six major ISPs (covering 98.82% of all subscribers) were tested on 4379 blocked websites (based on court orders, user reports, and publicly available or leaked government orders) on DNS poisoning/injection or HTTP/SNI-based censorship. Used censorship techniques and websites blocked were different across ISPs. Multiple ISPs used two different techniques (depending on the website), and all but one provided censorship notices. Providers blocked between 1892 to 3721 (of 4379) pages with only 1115 (27.64%) of pages blocked by all ISPs. {{Singh2020}} In contrast, in Pakistan, the government can also order the IPSs to perform blocking and blocking has even been observed in the past on the IXP level. Since 2020, there is also a central Web Monitoring System deployed at lines of international connectivity. In Indonesia, initially the government guided ISPs in how to perform the blocking. The regulations were updated in 2020 to allow Indonesian ISPs to block websites at their discretion. In 2022, there was a proposal by internet service providers to centralise DNS. In Indonesia, a partial block list is publicly available, but without any indication of why something is blocked. {{Grover2023}}
 
 {{BASSO}} reported that for Russia a high increase in additions to the Roskomnadzor’s block list was observed in March 2022 as well as in December 2022, foremost covering news pages but also covering human rights organizations and social media, where more than 3500 blocking orders were added to the list by an "Unknown body". Further, blocking of domains that are not in the official Roskomnadzor’s list has been observed as well.
 
