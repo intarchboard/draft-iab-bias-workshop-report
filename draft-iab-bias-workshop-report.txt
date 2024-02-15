@@ -5,9 +5,9 @@
 Network Working Group                                       M. Kühlewind
 Internet-Draft                                                          
 Intended status: Informational                                  D. Dhody
-Expires: 8 August 2024                                                  
+Expires: 18 August 2024                                                 
                                                                M. Knodel
-                                                         5 February 2024
+                                                        15 February 2024
 
 
    IAB Barriers to Internet Access of Services (BIAS) Workshop Report
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 8 August 2024.
+   This Internet-Draft will expire on 18 August 2024.
 
 Copyright Notice
 
@@ -85,14 +85,13 @@ Table of Contents
        2.2.1.  Disparities in service provision
        2.2.2.  Lack of consistent acceptance of language scripts
        2.2.3.  Web Affordability and Inclusiveness
-       2.2.4.  M-Lab
-       2.2.5.  Discussion
+       2.2.4.  Discussion
      2.3.  Session 3: Censorship - Reports and Circumvention
        2.3.1.  Censorship Orders, Measurements, and Device Analysis
        2.3.2.  Use of VPNs for Censorship Circumvents and user
                expectations
        2.3.3.  Discussion
-     2.4.  Conclusions
+     2.4.  Key Take Aways
    3.  Informative References
    Appendix A.  Position Papers
    Appendix B.  Workshop Participants
@@ -308,11 +307,7 @@ Table of Contents
    systematic adaptations to Web complexity based on "geographic
    variations in mobile broadband prices and income levels."
 
-2.2.4.  M-Lab
-
-   TBD
-
-2.2.5.  Discussion
+2.2.4.  Discussion
 
    These three reports discuss very different aspects of current
    inequalities in Internet access in various parts of the world:
@@ -383,9 +378,9 @@ Table of Contents
    (of 4379) pages with only 1115 (27.64%) of pages blocked by all ISPs.
    [Singh2020] In contrast, in Pakistan, the government can also order
    the IPSs to perform blocking and blocking has even been observed in
-   the past on the IXP level.  Since 2020, there is also a central Web
+   the past on the IXP level.  Since 2020, there has also a central Web
    Monitoring System deployed at lines of international connectivity.
-   In Indonesia, initially the government guided ISPs in how to perform
+   In Indonesia, initially, the government guided ISPs in how to perform
    the blocking.  The regulations were updated in 2020 to allow
    Indonesian ISPs to block websites at their discretion.  In 2022,
    there was a proposal by internet service providers to centralise DNS.
@@ -403,14 +398,14 @@ Table of Contents
    An invited talk presented the work in [WANG] on locating censorship
    devices by using HTTP and TLS traceroutes, identifying device vendors
    through fingerprinting, and reverse-engineering censorship triggers
-   by use of fuzzing.  E.g. for the case of Azerbaijan and Kazakhstan,
-   they showed that a significant portion of measurements from remote
-   countries are blocked at the endpoint, indicating local policies but
-   connection resets are also happening in Belarus and Russia.  Further,
-   they could identify a set of commercial network devices (firewalls)
-   that are used in these countries for censorship and show how fuzzing
-   can be used to fingerprint and cluster behaviors as well as
-   potentially circumvent the deployed methods.
+   by the use of fuzzing.  E.g. for the case of Azerbaijan and
+   Kazakhstan, they showed that a significant portion of measurements
+   from remote countries are blocked at the endpoint, indicating local
+   policies but connection resets are also happening in Belarus and
+   Russia.  Further, they could identify a set of commercial network
+   devices (firewalls) that are used in these countries for censorship
+   and show how fuzzing can be used to fingerprint and cluster
+   behaviours as well as potentially circumvent the deployed methods.
 
    All speakers called for more transparency by requiring blocking
    messages as well as publication and auditing of blocklists.
@@ -440,7 +435,29 @@ Table of Contents
    circumvents, however, continued work on protocol enhancements that
    protect user privacy is essential.
 
-2.4.  Conclusions
+2.4.  Key Take Aways
+
+   Some key takeaways from the workshop are -
+
+   *  There is a need for the technical community to address the
+      management gaps in operating Community Networks.
+
+   *  Work should be done in documenting best practices for operating
+      Community Networks.
+
+   *  During the development of protocols, explicit manageability
+      considerations related to Community Networks should be considered.
+
+   *  IETF can play a key role in building consensus on solutions that
+      foster digital inclusion.
+
+   *  IETF should continue to work on protocol enhancements that protect
+      user privacy.
+
+   *  Further discussion of these topics could happen in GAIA, HRPC,
+      PEARG, and MAPRG based on the relevance to the research group.
+      The community could also explore if a censorship (and its
+      circumvention) focused group could be created.
 
 3.  Informative References
 
