@@ -330,7 +330,7 @@ Some key takeaways from the workshop are -
 - During the development of protocols, explicit manageability considerations related to Community Networks should be considered.
 - IETF can play a key role in building consensus on solutions that foster digital inclusion.
 - IETF should continue to work on protocol enhancements that protect user privacy.
-- Further discussion of these topics could happen in GAIA, HRPC, PEARG, and MAPRG based on the relevance to the research group. The community could also explore if censorship (and its circumvention) focused group could be created. 
+- Further discussion of these topics could happen in GAIA, HRPC, PEARG, and MAPRG based on the relevance to the research group. The community could also explore if a censorship (and its circumvention) focused group could be created.
 
 --- back
 
