@@ -286,10 +286,6 @@ On the topic of availability of Internet services and content in multiple langua
 ### Web Affordability and Inclusiveness
 In "A Framework for Improving Web Affordability and Inclusiveness" Rumaisa Habib presented research on the connection between website size and cost to end users. {{HABIB}} This critical inquiry presents access in terms of affordability and through measurement demonstrates that the material costs to end users who pay for their connection based on the volume of data they download and upload have risen as the complexity of the web grows. Their research provides a framework for optimisation based on end-user affordability. This framework is anchored to reality: it proposes a fairness metric and suggests systematic adaptations to Web complexity based on "geographic variations in mobile broadband prices and income levels."
 
-### M-Lab
-
-TBD
-
 ### Discussion
 
 These three reports discuss very different aspects of current inequalities in Internet access in various parts of the world: service provision, availability, and economic costs. Notably, the reports discuss trends that exacerbate the digital divide beyond the question of connectivity or whether users have access to the Internet, potentially bringing concrete ways that the IETF community can address digital inclusion within its remit.
@@ -306,12 +302,12 @@ The censorship reports, with a focus on Asia, and specifically India, as well as
 
 {{SAMSUDIN}} reported on confirmed blocking from 10 countries (Cambodia, Hong Kong (China), India, Indonesia, Malaysia, Myanmar, Philippines, Thailand, Timor-Leste, Vietnam) in the period from 1 July 2022 to 30 June 2023. The blocking was either confirmed by OONI measurements for existing blocking fingerprints, heuristics, i.e. for new blocking fingerprints as well as news reports of blocking orders, or user experiences. Most of these countries block specific content such as porn, gambling, or certain news pages. Interestingly the blocking in Hong Kong and Myanmar is focused on the military and governmental pages of foreign countries. Blocking is often realized by either DNS tampering or HTTP tampering. For DNS, either a decided IP address, a bogon IP address (127.0.0.1), or an empty domain (nxdomain) is used. In case of DNS tampering using a decided IP address or HTTP tampering some countries provide a block page that exposes the blocking, however, more transparency about blocking is requested by civil society organizations and the iMAP project.
 
-{{GROVER}} further focused the discussion on online censorship in India, Pakistan, and Indonesia. In India, where providers are responsible for implementing the blocking but no method is mandated, the six major ISPs (covering 98.82% of all subscribers) were tested on 4379 blocked websites (based on court orders, user reports, and publicly available or leaked government orders) on DNS poisoning/injection or HTTP/SNI-based censorship. Used censorship techniques and websites blocked were different across ISPs. Multiple ISPs used two different techniques (depending on the website), and all but one provided censorship notices. Providers blocked between 1892 to 3721 (of 4379) pages with only 1115 (27.64%) of pages blocked by all ISPs. {{Singh2020}} In contrast, in Pakistan, the government can also order the IPSs to perform blocking and blocking has even been observed in the past on the IXP level. Since 2020, there is also a central Web Monitoring System deployed at lines of international connectivity. In Indonesia, initially the government guided ISPs in how to perform the blocking. The regulations were updated in 2020 to allow Indonesian ISPs to block websites at their discretion. In 2022, there was a proposal by internet service providers to centralise DNS. In Indonesia, a partial block list is publicly available, but without any indication of why something is blocked. {{Grover2023}}
+{{GROVER}} further focused the discussion on online censorship in India, Pakistan, and Indonesia. In India, where providers are responsible for implementing the blocking but no method is mandated, the six major ISPs (covering 98.82% of all subscribers) were tested on 4379 blocked websites (based on court orders, user reports, and publicly available or leaked government orders) on DNS poisoning/injection or HTTP/SNI-based censorship. Used censorship techniques and websites blocked were different across ISPs. Multiple ISPs used two different techniques (depending on the website), and all but one provided censorship notices. Providers blocked between 1892 to 3721 (of 4379) pages with only 1115 (27.64%) of pages blocked by all ISPs. {{Singh2020}} In contrast, in Pakistan, the government can also order the IPSs to perform blocking and blocking has even been observed in the past on the IXP level. Since 2020, there has also a central Web Monitoring System deployed at lines of international connectivity. In Indonesia, initially, the government guided ISPs in how to perform the blocking. The regulations were updated in 2020 to allow Indonesian ISPs to block websites at their discretion. In 2022, there was a proposal by internet service providers to centralise DNS. In Indonesia, a partial block list is publicly available, but without any indication of why something is blocked. {{Grover2023}}
 
 {{BASSO}} reported that for Russia a high increase in additions to the Roskomnadzor’s block list was observed in March 2022 as well as in December 2022, foremost covering news pages but also covering human rights organizations and social media, where more than 3500 blocking orders were added to the list by an "Unknown body". Further, blocking of domains that are not in the official Roskomnadzor’s list has been observed as well.
 
-An invited talk presented the work in {{WANG}} on locating censorship devices by using HTTP and TLS traceroutes, identifying device vendors through fingerprinting, and reverse-engineering censorship triggers by use of fuzzing.
-E.g. for the case of Azerbaijan and Kazakhstan, they showed that a significant portion of measurements from remote countries are blocked at the endpoint, indicating local policies but connection resets are also happening in Belarus and Russia. Further, they could identify a set of commercial network devices (firewalls) that are used in these countries for censorship and show how fuzzing can be used to fingerprint and cluster behaviors as well as potentially circumvent the deployed methods.
+An invited talk presented the work in {{WANG}} on locating censorship devices by using HTTP and TLS traceroutes, identifying device vendors through fingerprinting, and reverse-engineering censorship triggers by the use of fuzzing.
+E.g. for the case of Azerbaijan and Kazakhstan, they showed that a significant portion of measurements from remote countries are blocked at the endpoint, indicating local policies but connection resets are also happening in Belarus and Russia. Further, they could identify a set of commercial network devices (firewalls) that are used in these countries for censorship and show how fuzzing can be used to fingerprint and cluster behaviours as well as potentially circumvent the deployed methods.
 
 All speakers called for more transparency by requiring blocking messages as well as publication and auditing of blocklists. Potentially even standardization could help.
 
@@ -325,8 +321,16 @@ The question of how common the use of VPNs for circumvention is and its legal im
 
 After all, there is a cat-and-mouse game between censors and circumvents, however, continued work on protocol enhancements that protect user privacy is essential.
 
-## Conclusions
+## Key Take Aways
 
+Some key takeaways from the workshop are -
+
+- There is a need for the technical community to address the management gaps in operating Community Networks.
+- Work should be done in documenting best practices for operating Community Networks.
+- During the development of protocols, explicit manageability considerations related to Community Networks should be considered.
+- IETF can play a key role in building consensus on solutions that foster digital inclusion.
+- IETF should continue to work on protocol enhancements that protect user privacy.
+- Further discussion of these topics could happen in GAIA, HRPC, PEARG, and MAPRG based on the relevance to the research group. The community could also explore if censorship (and its circumvention) focused group could be created. 
 
 --- back
 
