@@ -5,9 +5,9 @@
 Network Working Group                                       M. Kühlewind
 Internet-Draft                                                          
 Intended status: Informational                                  D. Dhody
-Expires: 18 August 2024                                                 
+Expires: 25 August 2024                                                 
                                                                M. Knodel
-                                                        15 February 2024
+                                                        22 February 2024
 
 
    IAB Barriers to Internet Access of Services (BIAS) Workshop Report
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 18 August 2024.
+   This Internet-Draft will expire on 25 August 2024.
 
 Copyright Notice
 
@@ -453,6 +453,13 @@ Table of Contents
 
    *  IETF should continue to work on protocol enhancements that protect
       user privacy.
+
+   *  IETF should continue to work on protocols or protocl extensions
+      that enable more transparency on filtering and promote their use
+      and deployment.
+
+   *  IETF should continue to work on VPN-like services and potentially
+      support measurements to understand their deployment and use.
 
    *  Further discussion of these topics could happen in GAIA, HRPC,
       PEARG, and MAPRG based on the relevance to the research group.
