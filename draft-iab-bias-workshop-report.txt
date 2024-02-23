@@ -96,6 +96,7 @@ Table of Contents
    Appendix A.  Position Papers
    Appendix B.  Workshop Participants
    Appendix C.  Workshop Program Committee
+   IAB Members at the Time of Approval
    Acknowledgments
    Authors' Addresses
 
@@ -672,6 +673,11 @@ Appendix C.  Workshop Program Committee
    Cloudflare), Dhruv Dhody (IAB, Huawei), Mallory Knodel (IAB, Center
    for Democracy and Technology), Mirja Kühlewind (IAB, Ericsson), and
    Tommy Pauly (IAB, Apple).
+
+IAB Members at the Time of Approval
+
+   Internet Architecture Board members at the time this document was
+   approved for publication were: TODO
 
 Acknowledgments
 
