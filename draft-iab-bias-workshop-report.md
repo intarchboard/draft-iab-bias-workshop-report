@@ -328,9 +328,9 @@ Some key takeaways from the workshop are -
 - There is a need for the technical community to address the management gaps in operating Community Networks.
 - Work should be done in documenting best practices for operating Community Networks.
 - During the development of protocols, explicit manageability considerations related to Community Networks should be considered.
-- There is a need to build consensus on solutions that foster digital inclusion.
+- Build consensus on solutions that have the most significant impact in fostering digital inclusion. Further, promoting these solutions ensures that efforts to bridge the digital divide are effective and inclusive.
 - Further work to enhance protocols ensuring user privacy should continue.
-- Develop new protocols (or extensions to existing protocols) that enable more transparency on filtering and promote their use and deployment.
+- Develop further protocols (or extensions to existing protocols) that enable more transparency on filtering and promote their use and deployment.
 - Develop new VPN-like services and potentially support measurements to understand their deployment and use.
 - Further discussion of these topics could happen in GAIA, HRPC, PEARG, and MAPRG based on the relevance to the research group. The community could also explore if a censorship (and its circumvention) focused group could be created.
 
