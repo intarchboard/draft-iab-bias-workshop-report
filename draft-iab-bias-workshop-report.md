@@ -334,9 +334,6 @@ Some key takeaways from the workshop are -
 - Develop new VPN-like services and potentially support measurements to understand their deployment and use.
 - Further discussion of these topics could happen in GAIA, HRPC, PEARG, and MAPRG based on the relevance to the research group. The community could also explore if a censorship (and its circumvention) focused group could be created.
 
-# Security Considerations
-
-
 --- back
 
 # Position Papers
@@ -385,7 +382,7 @@ The workshop program committee members were Christopher Wood (IAB, Cloudflare), 
 {:numbered="false"}
 
 Internet Architecture Board members at the time this document was approved for publication were: TODO
-   
+
 # Acknowledgments
 {:numbered="false"}
 
