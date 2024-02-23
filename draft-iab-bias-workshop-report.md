@@ -334,6 +334,9 @@ Some key takeaways from the workshop are -
 - Develop new VPN-like services and potentially support measurements to understand their deployment and use.
 - Further discussion of these topics could happen in GAIA, HRPC, PEARG, and MAPRG based on the relevance to the research group. The community could also explore if a censorship (and its circumvention) focused group could be created.
 
+# Security Considerations
+
+
 --- back
 
 # Position Papers
@@ -378,6 +381,11 @@ The workshop participants were Arnaud Taddei, Carlos Pignataro, Carsten Bormann,
 
 The workshop program committee members were Christopher Wood (IAB, Cloudflare), Dhruv Dhody (IAB, Huawei), Mallory Knodel (IAB, Center for Democracy and Technology), Mirja Kühlewind (IAB, Ericsson), and Tommy Pauly (IAB, Apple).
 
+# IAB Members at the Time of Approval
+{:numbered="false"}
+
+Internet Architecture Board members at the time this document was approved for publication were: TODO
+   
 # Acknowledgments
 {:numbered="false"}
 
