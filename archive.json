@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-02-22T00:35:59.378088+00:00",
+  "timestamp": "2024-02-25T00:39:25.799514+00:00",
   "repo": "intarchboard/draft-iab-bias-workshop-report",
   "labels": [
     {
@@ -106,6 +106,115 @@
       },
       "comments": [],
       "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOLDN7jc5ntqEM",
+      "title": "Removed IETF Should",
+      "url": "https://github.com/intarchboard/draft-iab-bias-workshop-report/pull/3",
+      "state": "MERGED",
+      "author": "dhruvdhody",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-02-23T03:24:17Z",
+      "updatedAt": "2024-02-23T10:50:34Z",
+      "baseRepository": "intarchboard/draft-iab-bias-workshop-report",
+      "baseRefName": "main",
+      "baseRefOid": "3d492211cec6da23eb0595fe59fad68a95dbe6d9",
+      "headRepository": "dhruvdhody/draft-iab-bias-workshop-report",
+      "headRefName": "main",
+      "headRefOid": "6e756241c6621d084a7a774c18692bddc6455661",
+      "closedAt": "2024-02-23T10:50:34Z",
+      "mergedAt": "2024-02-23T10:50:34Z",
+      "mergedBy": "dhruvdhody",
+      "mergeCommit": {
+        "oid": "4795d59c61d242ee2b502378046e137d20ff8638"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLDN7jc5xHY0a",
+          "commit": {
+            "abbreviatedOid": "7350dc6"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-02-23T10:03:12Z",
+          "updatedAt": "2024-02-23T10:03:12Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "Actually, looking on this again, I'm not sure I fully understand this point. Why is this about build consensus (rather than building solutions that support digital inclusion)?",
+              "createdAt": "2024-02-23T10:03:12Z",
+              "updatedAt": "2024-02-23T10:03:12Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLDN7jc5xHc6Q",
+          "commit": {
+            "abbreviatedOid": "7350dc6"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-02-23T10:12:58Z",
+          "updatedAt": "2024-02-23T10:12:59Z",
+          "comments": [
+            {
+              "originalPosition": 10,
+              "body": "There are already some protocols like draft-ietf-dnsop-structured-dns-error and I think there is also an extension for http which I can find right now. So I think the word \"continue\" was kind of better here. Maybe we just say s/Develop new/Develop further/?",
+              "createdAt": "2024-02-23T10:12:59Z",
+              "updatedAt": "2024-02-23T10:12:59Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLDN7jc5xHexT",
+          "commit": {
+            "abbreviatedOid": "7350dc6"
+          },
+          "author": "dhruvdhody",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-02-23T10:17:38Z",
+          "updatedAt": "2024-02-23T10:17:38Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "It comes from the comment made that IETF is a good venue for consensus building to ensure experts are on the same page and then promote that to policy folks and government! Earlier I did not want to mention \"promote\" because we started with 'IETF should' but now this can be reworded. How about -- \r\n- Build consensus on solutions that have the most significant impact in fostering digital inclusion. Further, promoting these solutions ensures that efforts to bridge the digital divide are effective and inclusive.\r\n",
+              "createdAt": "2024-02-23T10:17:38Z",
+              "updatedAt": "2024-02-23T10:18:56Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLDN7jc5xHpiu",
+          "commit": {
+            "abbreviatedOid": "7350dc6"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-02-23T10:42:16Z",
+          "updatedAt": "2024-02-23T10:42:17Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "yes better",
+              "createdAt": "2024-02-23T10:42:17Z",
+              "updatedAt": "2024-02-23T10:42:17Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
