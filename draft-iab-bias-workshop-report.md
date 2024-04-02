@@ -318,7 +318,7 @@ The question of how common the use of VPNs for circumvention is and its legal im
 
 ### Discussion
 
-After all, there is a cat-and-mouse game between censors and circumvents, however, continued work on protocol enhancements that protect user privacy is essential. 
+After all, there is a cat-and-mouse game between censors and circumvents, however, continued work on protocol enhancements that protect user privacy is essential.
 
 ## Key Take Aways
 
