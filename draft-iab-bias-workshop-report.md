@@ -269,7 +269,7 @@ The inconsistent quality and performance of Satellite Internet is a gap for comm
 
 ### Discussion
 
-How can the technical community address the management gap and improve best practices for Community Networks? Is the increasing complexity of the Internet making it more challenging to establish connections, and should this be taken into account in the design of the Internet? Should the manageability consideration be expanded to explicitly consider Community Networks? Global Access to the Internet for All (GAIA) {{GAIA}} research group could be a venue for further discussion and research. Further discussion highlighted the need for readily available knowledge and tools for community networks as well as the tussle with market forces when commercial networks compete with community networks.
+How can the technical community address the management gap and improve best practices for Community Networks? Is the increasing complexity of the Internet making it more challenging to establish secure connections, and should this be taken into account in the design of the Internet? What steps need to be taken to make sure Community Networks are secure? Should the manageability consideration be expanded to explicitly consider Community Networks? Global Access to the Internet for All (GAIA) {{GAIA}} research group could be a venue for further discussion and research. Further discussion highlighted the need for readily available knowledge and tools for community networks as well as the tussle with market forces when commercial networks compete with community networks. Also, there is a lack of operational inputs from community network operators in the IETF/IRTF.
 
 ## Session 2: Digital Divide - Reports and Comments
 
@@ -290,7 +290,7 @@ In "A Framework for Improving Web Affordability and Inclusiveness" Rumaisa Habib
 
 These three reports discuss very different aspects of current inequalities in Internet access in various parts of the world: service provision, availability, and economic costs. Notably, the reports discuss trends that exacerbate the digital divide beyond the question of connectivity or whether users have access to the Internet, potentially bringing concrete ways that the IETF community can address digital inclusion within its remit.
 
-Discussants noted that while there are some interesting aspects to the problem of the digital divide, such as measurements and frameworks, most of the work is getting this work to the right people at the policy layer so there is an importance of communicating this technical evidence to the right people. The IETF's role could be to build consensus on what the proper solutions presented to decision makers that put research and measurement not only in context but also in a consensus-driven solution space. Another method to better communicate this research is by telling stories of end users in more relatable and relevant terms, which is often a challenge for the technical level and a role for more diverse stakeholders at the more local level.
+Discussants noted that while there are some interesting aspects to the problem of the digital divide, such as measurements and frameworks, most of the work is getting this work to the right people at the policy layer so there is an importance of communicating this technical evidence to the right people. The IETF's role could be to build consensus on the proper solutions presented to decision-makers that put research and measurement not only in context but also in a consensus-driven solution space. Another method to better communicate this research is by telling stories of end users in more relatable and relevant terms, which is often a challenge for the technical level and a role for more diverse stakeholders at the more local level.
 
 ## Session 3: Censorship - Reports and Circumvention
 
@@ -306,12 +306,11 @@ The censorship reports, with a focus on Asia, and specifically India, as well as
 
 {{BASSO}} reported that for Russia a high increase in additions to the Roskomnadzor’s block list was observed in March 2022 as well as in December 2022, foremost covering news pages but also covering human rights organizations and social media, where more than 3500 blocking orders were added to the list by an "Unknown body". Further, blocking of domains that are not in the official Roskomnadzor’s list has been observed as well.
 
-An invited talk presented the work in {{WANG}} on locating censorship devices by using HTTP and TLS traceroutes, identifying device vendors through fingerprinting, and reverse-engineering censorship triggers by the use of fuzzing.
-E.g. for the case of Azerbaijan and Kazakhstan, they showed that a significant portion of measurements from remote countries are blocked at the endpoint, indicating local policies but connection resets are also happening in Belarus and Russia. Further, they could identify a set of commercial network devices (firewalls) that are used in these countries for censorship and show how fuzzing can be used to fingerprint and cluster behaviours as well as potentially circumvent the deployed methods.
+An invited talk presented the work in {{WANG}} on locating censorship devices by using HTTP and TLS traceroutes, identifying device vendors through fingerprinting, and reverse-engineering censorship triggers by the use of fuzzing. E.g. for the case of Azerbaijan and Kazakhstan, they showed that a significant portion of measurements from remote countries are blocked at the endpoint, indicating local policies but connection resets are also happening in Belarus and Russia. Further, they could identify a set of commercial network devices (with filtering techniques such as firewalls) that are used in these countries for censorship and show how fuzzing can be used to fingerprint and cluster behaviours as well as potentially circumvent the deployed methods. 
 
 All speakers called for more transparency by requiring blocking messages as well as publication and auditing of blocklists. Potentially even standardization could help.
 
-### Use of VPNs for Censorship Circumvents and user expectations
+### Use of VPNs for Censorship Circumvents and User Expectations
 
 Further on in the session, the possibility and prevalence of using VPNs for circumvention has been discussed including user expectations and an analysis of security shortcomings of commercial VPN services. The analysis presented in {{RAMESH}} has shown various problems that lead to data leaks such as leakage of IPv6 traffic, non-browser traffic, or tunnel failure, not upholding user expectations, especially when used in authoritarian regimes for censorship circumvention or private communication.
 
@@ -319,7 +318,7 @@ The question of how common the use of VPNs for circumvention is and its legal im
 
 ### Discussion
 
-After all, there is a cat-and-mouse game between censors and circumvents, however, continued work on protocol enhancements that protect user privacy is essential.
+After all, there is a cat-and-mouse game between censors and circumvents, however, continued work on protocol enhancements that protect user privacy is essential. 
 
 ## Key Take Aways
 
@@ -386,4 +385,4 @@ Internet Architecture Board members at the time this document was approved for p
 # Acknowledgments
 {:numbered="false"}
 
-TODO acknowledge.
+Thanks to Arnaud Taddei for helpful suggestions to improve this report.
