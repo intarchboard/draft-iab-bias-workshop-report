@@ -5,9 +5,9 @@
 Network Working Group                                       M. Kühlewind
 Internet-Draft                                                          
 Intended status: Informational                                  D. Dhody
-Expires: 26 August 2024                                                 
+Expires: 1 November 2024                                                
                                                                M. Knodel
-                                                        23 February 2024
+                                                           30 April 2024
 
 
    IAB Barriers to Internet Access of Services (BIAS) Workshop Report
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 26 August 2024.
+   This Internet-Draft will expire on 1 November 2024.
 
 Copyright Notice
 
@@ -88,8 +88,8 @@ Table of Contents
        2.2.4.  Discussion
      2.3.  Session 3: Censorship - Reports and Circumvention
        2.3.1.  Censorship Orders, Measurements, and Device Analysis
-       2.3.2.  Use of VPNs for Censorship Circumvents and user
-               expectations
+       2.3.2.  Use of VPNs for Censorship Circumvents and User
+               Expectations
        2.3.3.  Discussion
      2.4.  Key Take Aways
    3.  Informative References
@@ -227,14 +227,17 @@ Table of Contents
    How can the technical community address the management gap and
    improve best practices for Community Networks?  Is the increasing
    complexity of the Internet making it more challenging to establish
-   connections, and should this be taken into account in the design of
-   the Internet?  Should the manageability consideration be expanded to
-   explicitly consider Community Networks?  Global Access to the
-   Internet for All (GAIA) [GAIA] research group could be a venue for
-   further discussion and research.  Further discussion highlighted the
-   need for readily available knowledge and tools for community networks
-   as well as the tussle with market forces when commercial networks
-   compete with community networks.
+   secure connections, and should this be taken into account in the
+   design of the Internet?  What steps need to be taken to make sure
+   Community Networks are secure?  Should the manageability
+   consideration be expanded to explicitly consider Community Networks?
+   Global Access to the Internet for All (GAIA) [GAIA] research group
+   could be a venue for further discussion and research.  Further
+   discussion highlighted the need for readily available knowledge and
+   tools for community networks as well as the tussle with market forces
+   when commercial networks compete with community networks.  Also,
+   there is a lack of operational inputs from community network
+   operators in the IETF/IRTF.
 
 2.2.  Session 2: Digital Divide - Reports and Comments
 
@@ -323,9 +326,9 @@ Table of Contents
    frameworks, most of the work is getting this work to the right people
    at the policy layer so there is an importance of communicating this
    technical evidence to the right people.  The IETF's role could be to
-   build consensus on what the proper solutions presented to decision
-   makers that put research and measurement not only in context but also
-   in a consensus-driven solution space.  Another method to better
+   build consensus on the proper solutions presented to decision-makers
+   that put research and measurement not only in context but also in a
+   consensus-driven solution space.  Another method to better
    communicate this research is by telling stories of end users in more
    relatable and relevant terms, which is often a challenge for the
    technical level and a role for more diverse stakeholders at the more
@@ -404,15 +407,16 @@ Table of Contents
    from remote countries are blocked at the endpoint, indicating local
    policies but connection resets are also happening in Belarus and
    Russia.  Further, they could identify a set of commercial network
-   devices (firewalls) that are used in these countries for censorship
-   and show how fuzzing can be used to fingerprint and cluster
-   behaviours as well as potentially circumvent the deployed methods.
+   devices (with filtering techniques such as firewalls) that are used
+   in these countries for censorship and show how fuzzing can be used to
+   fingerprint and cluster behaviours as well as potentially circumvent
+   the deployed methods.
 
    All speakers called for more transparency by requiring blocking
    messages as well as publication and auditing of blocklists.
    Potentially even standardization could help.
 
-2.3.2.  Use of VPNs for Censorship Circumvents and user expectations
+2.3.2.  Use of VPNs for Censorship Circumvents and User Expectations
 
    Further on in the session, the possibility and prevalence of using
    VPNs for circumvention has been discussed including user expectations
@@ -681,7 +685,8 @@ IAB Members at the Time of Approval
 
 Acknowledgments
 
-   TODO acknowledge.
+   Thanks to Arnaud Taddei for helpful suggestions to improve this
+   report.
 
 Authors' Addresses
 
