@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-04-30T00:37:04.921069+00:00",
+  "timestamp": "2024-05-02T00:37:35.126482+00:00",
   "repo": "intarchboard/draft-iab-bias-workshop-report",
   "labels": [
     {
@@ -221,24 +221,26 @@
       "id": "PR_kwDOLDN7jc5rYvKT",
       "title": "Arnaud's comments during IABOpen",
       "url": "https://github.com/intarchboard/draft-iab-bias-workshop-report/pull/4",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "dhruvdhody",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2024-04-02T04:53:41Z",
-      "updatedAt": "2024-04-13T06:00:24Z",
+      "updatedAt": "2024-04-30T09:43:07Z",
       "baseRepository": "intarchboard/draft-iab-bias-workshop-report",
       "baseRefName": "main",
       "baseRefOid": "53d3082fd9d517588b3131d9ec78e01ed8b1c918",
       "headRepository": "dhruvdhody/draft-iab-bias-workshop-report",
       "headRefName": "main",
       "headRefOid": "27788ba05a3f6aec3c30b7e386e010faac2aa9d2",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2024-04-30T09:43:07Z",
+      "mergedAt": "2024-04-30T09:43:07Z",
+      "mergedBy": "dhruvdhody",
+      "mergeCommit": {
+        "oid": "8caa8f3d8510d008a22dc6a4b632960e1d5942c9"
+      },
       "comments": [],
       "reviews": []
     }
