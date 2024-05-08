@@ -5,9 +5,9 @@
 Network Working Group                                       M. Kühlewind
 Internet-Draft                                                          
 Intended status: Informational                                  D. Dhody
-Expires: 1 November 2024                                                
+Expires: 9 November 2024                                                
                                                                M. Knodel
-                                                           30 April 2024
+                                                              8 May 2024
 
 
    IAB Barriers to Internet Access of Services (BIAS) Workshop Report
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 1 November 2024.
+   This Internet-Draft will expire on 9 November 2024.
 
 Copyright Notice
 
@@ -208,9 +208,9 @@ Table of Contents
    [HU] highlighted that Satellite Internet provided by advanced LEO
    satellite constellations can play a pivotal role in closing the
    connectivity gap in the urban-rural digital divide via Satellite-
-   dependent community networks.  There existing known performance and
-   management gaps that need focus to enable Satellite Internet to
-   resolve the divide.  Further, research directions such as multi-layer
+   dependent community networks.  These existing known performance and
+   management gaps need focus to enable Satellite Internet to resolve
+   the divide.  Further, research directions such as multi-layer
    satellite networking, autonomous maintenance, and integration between
    Terrestrial and Non-Terrestrial networks were suggested.
 
