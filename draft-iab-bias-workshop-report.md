@@ -337,7 +337,7 @@ Some key takeaways from the workshop are -
 
 # Position Papers
 
-19 position papers were submitted to the workshop call for papers. 11 were selected for publication. Papers that were not published either (2) only provided a very prelimited analysis of an idea that was felt to be incomprehensive for discussion at the workshop, or addressed problems that were beyond the scope as dedicated for the workshop discussion e.g. discussing cyber security threads as a barrier for participation or implication of technology in regulation that imposes blocking. Both of these topics pose a potentially severe risk on the open Internet, however, these risks might provide a high risk for all Internet users but do not necessarily imply an unbalance.
+19 position papers were submitted to the workshop call for papers. 11 were selected for publication. Papers that were not published either (1) only provided a very prelimited analysis of an idea that was felt to be incomprehensive for discussion at the workshop, or (2) addressed problems that were beyond the scope as dedicated for the workshop discussion e.g. discussing cyber security threads as a barrier for participation or implication of technology in regulation that imposes blocking. Both of these topics pose a potentially severe risk on the open Internet, however, these risks might provide a high risk for all Internet users but do not necessarily imply an unbalance.
 
 All accepted papers are available at: https://datatracker.ietf.org/group/biasws/materials/
 
