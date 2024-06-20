@@ -331,7 +331,7 @@ Some key takeaways from the workshop are -
 - Further work to enhance protocols ensuring user privacy should continue.
 - Develop further protocols (or extensions to existing protocols) that enable more transparency on filtering and promote their use and deployment.
 - Develop new VPN-like services and potentially support measurements to understand their deployment and use.
-- Further discussion of these topics could happen in GAIA, HRPC, PEARG, and MAPRG based on the relevance to the research group. The management and operations-related discussion can be taken to OPSAWG. The community could also explore if a censorship (and its circumvention) focused group could be created. 
+- Further discussion of these topics could happen in GAIA, HRPC, PEARG, and MAPRG based on the relevance to the research group. The management and operations-related discussion can be taken to OPSAWG. The community could also explore if a censorship (and its circumvention) focused group could be created.
 
 --- back
 
