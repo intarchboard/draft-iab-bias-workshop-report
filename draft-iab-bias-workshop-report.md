@@ -353,7 +353,7 @@ Community Networks:
 Digital Divide:
 
 * R. Holz, N. Nazemi, O. Tavallaie, A.Y. Zomaya:    Evidence for a digital divide? Measuring DNS dependencies in the context of the indigenous population of Australia {{HOLZ}}
-* S. Hussain:   Universal Acceptance of Domain Names and Email Addresses: A Key to Digital Inclusion {{Hussain}}
+* S. Hussain:   Universal Acceptance of Domain Names and Email Addresses: A Key to Digital Inclusion {{HUSSAIN}}
 * R. Habib, S. Tanveer, A. Inam, H. Ahmed, A. Ali, Z.A. Uzmi, Z.A. Qazi, I.A. Qazi: A Framework for Improving Web Affordability and Inclusiveness {{HABIB}}
 * J. Ott, G. Bartolomeo, M.M. Bese, R. Bose, M. Bosk, D. Guzman, L. Kärkkäinen, M. Kosek, N. Mohan: The Internet: Only for the Fast (and Furious)?
 * L.Y. Ohlsen:  BIAS workshop - M-Lab Position Paper submission
