@@ -278,7 +278,7 @@ Critical internet infrastructure affects many aspects of our society significant
 The second day of workshops was essential to understanding the nature of the digital divide. Presentations of reports interrogated at least three key aspects of the digital divide, though there is recognition that there may be more technical aspects of the digital divide that were not present. Those were: differences between population demographics in the provision of online resources by governments, inequality in the use of multilingualized domains and email addresses, and increased costs for end-user downloads of contemporary websites' sizes.
 
 ### Disparities in service provision
-Ralph Holz presented research that exposes the more limited DNS-mediated access to government websites by indigenous communities in Australia as compared to less disadvantaged users in the same population in "Evidence for a digital divide? Measuring DNS dependencies in the context of the indigenous population of Australia". {{HOLZ}} DNS dependency trends were analysed between two lists of domains serving Australian government sites for Indigenous users and the general population. Researchers found, "evidence that dependencies for the indigenous population are indeed differently configured," indicative of a difference in service provisioning. However qualitative follow-up research is needed to interrogate both the potential reasons for these differences and whether the differences contribute to a "digital divide" that is tangible for Indigenous users.
+Ralph Holz presented research that exposes the more limited DNS-mediated access to government websites by Indigenous communities in Australia as compared to less disadvantaged users in the same population in "Evidence for a digital divide? Measuring DNS dependencies in the context of the Indigenous population of Australia". {{HOLZ}} DNS dependency trends were analysed between two lists of domains serving Australian government sites for Indigenous users and the general population. Researchers found, "evidence that dependencies for the Indigenous population are indeed differently configured," indicative of a difference in service provisioning. However qualitative follow-up research is needed to interrogate both the potential reasons for these differences and whether the differences contribute to a "digital divide" that is tangible for Indigenous users.
 
 ### Lack of consistent acceptance of language scripts
 On the topic of availability of Internet services and content in multiple languages "Universal Acceptance of Domain Names and Email Addresses: A Key to Digital Inclusion" was presented by Sarmad Hussain of ICANN. {{HUSSAIN}} The ICANN community has increased the options for multilingual identifiers through the expansion of the Internet’s DNS for use in domains and email addresses. However, while the work of technical specification and policy recommendations is complete, much work remains to deploy a multiligualized internet. Today there are around 150 internationalised domain names (IDNs) but the barriers to equal rollout of these scripts at the domain level are hindered primarily by software and applications that do not yet recognise these new scripts. "Universal Acceptance" is a programme of action for the internet community at large that can ensure IDNs are accepted and treated consistently.
@@ -302,7 +302,7 @@ The censorship reports, with a focus on Asia, and specifically India, as well as
 
 {{SAMSUDIN}} reported on confirmed blocking from 10 countries (Cambodia, Hong Kong (China), India, Indonesia, Malaysia, Myanmar, Philippines, Thailand, Timor-Leste, Vietnam) in the period from 1 July 2022 to 30 June 2023. The blocking was either confirmed by OONI measurements for existing blocking fingerprints, heuristics, i.e. for new blocking fingerprints as well as news reports of blocking orders, or user experiences. Most of these countries block specific content such as porn, gambling, or certain news pages. Interestingly the blocking in Hong Kong and Myanmar is focused on the military and governmental pages of foreign countries. Blocking is often realized by either DNS tampering or HTTP tampering. For DNS, either a decided IP address, a bogon IP address (127.0.0.1), or an empty domain (nxdomain) is used. In case of DNS tampering using a decided IP address or HTTP tampering some countries provide a block page that exposes the blocking, however, more transparency about blocking is requested by civil society organizations and the iMAP project.
 
-{{GROVER}} further focused the discussion on online censorship in India, Pakistan, and Indonesia. In India, where providers are responsible for implementing the blocking but no method is mandated, the six major ISPs (covering 98.82% of all subscribers) were tested on 4379 blocked websites (based on court orders, user reports, and publicly available or leaked government orders) on DNS poisoning/injection or HTTP/SNI-based censorship. Used censorship techniques and websites blocked were different across ISPs. Multiple ISPs used two different techniques (depending on the website), and all but one provided censorship notices. Providers blocked between 1892 to 3721 (of 4379) pages with only 1115 (27.64%) of pages blocked by all ISPs. {{Singh2020}} In contrast, in Pakistan, the government can also order the IPSs to perform blocking and blocking has even been observed in the past on the IXP level. Since 2020, there has also a central Web Monitoring System deployed at lines of international connectivity. In Indonesia, initially, the government guided ISPs in how to perform the blocking. The regulations were updated in 2020 to allow Indonesian ISPs to block websites at their discretion. In 2022, there was a proposal by internet service providers to centralise DNS. In Indonesia, a partial block list is publicly available, but without any indication of why something is blocked. {{Grover2023}}
+{{GROVER}} further focused the discussion on online censorship in India, Pakistan, and Indonesia. In India, where providers are responsible for implementing the blocking but no method is mandated, the six major ISPs (covering 98.82% of all subscribers) were tested on 4379 blocked websites (based on court orders, user reports, and publicly available or leaked government orders) on DNS poisoning/injection or HTTP/SNI-based censorship. Used censorship techniques and websites blocked were different across ISPs. Multiple ISPs used two different techniques (depending on the website), and all but one provided censorship notices. Providers blocked between 1892 to 3721 (of 4379) pages with only 1115 (27.64%) of pages blocked by all ISPs. {{Singh2020}} In contrast, in Pakistan, the government can also order the IPSs to perform blocking and blocking has even been observed in the past on the IXP level. Since 2020, there has also been a central Web Monitoring System deployed at lines of international connectivity. In Indonesia, initially, the government guided ISPs in how to perform the blocking. The regulations were updated in 2020 to allow Indonesian ISPs to block websites at their discretion. In 2022, there was a proposal by internet service providers to centralise DNS. In Indonesia, a partial block list is publicly available, but without any indication of why something is blocked. {{Grover2023}}
 
 {{BASSO}} reported that for Russia a high increase in additions to the Roskomnadzor’s block list was observed in March 2022 as well as in December 2022, foremost covering news pages but also covering human rights organizations and social media, where more than 3500 blocking orders were added to the list by an "Unknown body". Further, blocking of domains that are not in the official Roskomnadzor’s list has been observed as well.
 
@@ -331,7 +331,7 @@ Some key takeaways from the workshop are -
 - Further work to enhance protocols ensuring user privacy should continue.
 - Develop further protocols (or extensions to existing protocols) that enable more transparency on filtering and promote their use and deployment.
 - Develop new VPN-like services and potentially support measurements to understand their deployment and use.
-- Further discussion of these topics could happen in GAIA, HRPC, PEARG, and MAPRG based on the relevance to the research group. The community could also explore if a censorship (and its circumvention) focused group could be created.
+- Further discussion of these topics could happen in GAIA, HRPC, PEARG, and MAPRG based on the relevance to the research group. The management and operations-related discussion can be taken to OPSAWG. The community could also explore if a censorship (and its circumvention) focused group could be created. 
 
 --- back
 
@@ -345,28 +345,28 @@ This is the list of all published papers:
 
 Community Networks:
 
-* L. M. Martínez-Cervantes, R. Guevara-Martínez:    Community Networks and the Quest for Quality
-* T. Benson, M. Fayed:  A ‘C’ in CDN: Access service to and from the Internet for community networks at-cost
-* P. Hu:    Closing the Performance and Management Gaps with Satellite Internet: Challenges, Approaches, and Future Directions
-* R. Rennó: Maximising Connectivity: The Spectrum's Vital Role in Technology Access
+* L. M. Martínez-Cervantes, R. Guevara-Martínez:    Community Networks and the Quest for Quality {{MARTINEZ}}
+* T. Benson, M. Fayed:  A ‘C’ in CDN: Access service to and from the Internet for community networks at-cost {{BENSON}}
+* P. Hu:    Closing the Performance and Management Gaps with Satellite Internet: Challenges, Approaches, and Future Directions {{HU}}
+* R. Rennó: Maximising Connectivity: The Spectrum's Vital Role in Technology Access {{RENNO}}
 
 Digital Divide:
 
-* R. Holz, N. Nazemi, O. Tavallaie, A.Y. Zomaya:    Evidence for a digital divide? Measuring DNS dependencies in the context of the indigenous population of Australia
-* S. Hussain:   Universal Acceptance of Domain Names and Email Addresses: A Key to Digital Inclusion
-* R. Habib, S. Tanveer, A. Inam, H. Ahmed, A. Ali, Z.A. Uzmi, Z.A. Qazi, I.A. Qazi: A Framework for Improving Web Affordability and Inclusiveness
+* R. Holz, N. Nazemi, O. Tavallaie, A.Y. Zomaya:    Evidence for a digital divide? Measuring DNS dependencies in the context of the indigenous population of Australia {{HOLZ}}
+* S. Hussain:   Universal Acceptance of Domain Names and Email Addresses: A Key to Digital Inclusion {{Hussain}}
+* R. Habib, S. Tanveer, A. Inam, H. Ahmed, A. Ali, Z.A. Uzmi, Z.A. Qazi, I.A. Qazi: A Framework for Improving Web Affordability and Inclusiveness {{HABIB}}
 * J. Ott, G. Bartolomeo, M.M. Bese, R. Bose, M. Bosk, D. Guzman, L. Kärkkäinen, M. Kosek, N. Mohan: The Internet: Only for the Fast (and Furious)?
 * L.Y. Ohlsen:  BIAS workshop - M-Lab Position Paper submission
 
 Censorship:
 
-* S. Nurliza Samsudin:  iMAP (Internet Monitoring Action Project) 2023 Internet Censorship Report
-* G. Grover:    The infrastructure of censorship in Asia
-* S. Basso: How Internet censorship changed in Russia during the 1st year of military conflict in Ukraine
+* S. Nurliza Samsudin:  iMAP (Internet Monitoring Action Project) 2023 Internet Censorship Report {{SAMSUDIN}}
+* G. Grover:    The infrastructure of censorship in Asia {{Grover2023}}
+* S. Basso: How Internet censorship changed in Russia during the 1st year of military conflict in Ukraine {{BASSO}}
 
 In addition to the submitted paper two invited talks were presented based on published papers:
 
-* R. Sundara Raman, M. Wang, J. Dalek, J. Mayer, R. Ensafi: Network Measurement Methods for Locating and Examining Censorship Devices
+* R. Sundara Raman, M. Wang, J. Dalek, J. Mayer, R. Ensafi: Network Measurement Methods for Locating and Examining Censorship Devices {{WANG}}
 * R. Ramesh, A. Vyas, R. Ensafi:    “All of them claim to be the best”: A multi-perspective study of VPN users and VPN providers
 
 # Workshop Participants
