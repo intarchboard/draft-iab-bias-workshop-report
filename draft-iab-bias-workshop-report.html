@@ -20,17 +20,17 @@
 <meta content="draft-iab-bias-workshop-report-latest" name="ietf.draft">
 <!-- Generator version information:
   xml2rfc 3.21.0
-    Python 3.11.9
+    Python 3.12.3
     ConfigArgParse 1.7
     google-i18n-address 3.1.0
     intervaltree 3.1.0
-    Jinja2 3.1.2
-    lxml 4.9.3
-    platformdirs 4.2.1
+    Jinja2 3.1.4
+    lxml 4.9.4
+    platformdirs 4.2.2
     pycountry 22.3.5
     PyYAML 6.0.1
     requests 2.31.0
-    setuptools 68.2.2
+    setuptools 69.5.1
     six 1.16.0
     wcwidth 0.2.13
 -->
@@ -1031,11 +1031,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">BIAS Workshop Report</td>
-<td class="right">May 2024</td>
+<td class="right">June 2024</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Kühlewind, et al.</td>
-<td class="center">Expires 29 November 2024</td>
+<td class="center">Expires 22 December 2024</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1048,12 +1048,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-iab-bias-workshop-report-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2024-05-28" class="published">28 May 2024</time>
+<time datetime="2024-06-20" class="published">20 June 2024</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2024-11-29">29 November 2024</time></dd>
+<dd class="expires"><time datetime="2024-12-22">22 December 2024</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1104,7 +1104,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 29 November 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 22 December 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1300,7 +1300,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
           <h4 id="name-disparities-in-service-prov">
 <a href="#section-2.2.1" class="section-number selfRef">2.2.1. </a><a href="#name-disparities-in-service-prov" class="section-name selfRef">Disparities in service provision</a>
           </h4>
-<p id="section-2.2.1-1">Ralph Holz presented research that exposes the more limited DNS-mediated access to government websites by indigenous communities in Australia as compared to less disadvantaged users in the same population in "Evidence for a digital divide? Measuring DNS dependencies in the context of the indigenous population of Australia". <span>[<a href="#HOLZ" class="cite xref">HOLZ</a>]</span> DNS dependency trends were analysed between two lists of domains serving Australian government sites for Indigenous users and the general population. Researchers found, "evidence that dependencies for the indigenous population are indeed differently configured," indicative of a difference in service provisioning. However qualitative follow-up research is needed to interrogate both the potential reasons for these differences and whether the differences contribute to a "digital divide" that is tangible for Indigenous users.<a href="#section-2.2.1-1" class="pilcrow">¶</a></p>
+<p id="section-2.2.1-1">Ralph Holz presented research that exposes the more limited DNS-mediated access to government websites by Indigenous communities in Australia as compared to less disadvantaged users in the same population in "Evidence for a digital divide? Measuring DNS dependencies in the context of the Indigenous population of Australia". <span>[<a href="#HOLZ" class="cite xref">HOLZ</a>]</span> DNS dependency trends were analysed between two lists of domains serving Australian government sites for Indigenous users and the general population. Researchers found, "evidence that dependencies for the Indigenous population are indeed differently configured," indicative of a difference in service provisioning. However qualitative follow-up research is needed to interrogate both the potential reasons for these differences and whether the differences contribute to a "digital divide" that is tangible for Indigenous users.<a href="#section-2.2.1-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="lack-of-consistent-acceptance-of-language-scripts">
@@ -1343,7 +1343,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <a href="#section-2.3.1" class="section-number selfRef">2.3.1. </a><a href="#name-censorship-orders-measureme" class="section-name selfRef">Censorship Orders, Measurements, and Device Analysis</a>
           </h4>
 <p id="section-2.3.1-1"><span>[<a href="#SAMSUDIN" class="cite xref">SAMSUDIN</a>]</span> reported on confirmed blocking from 10 countries (Cambodia, Hong Kong (China), India, Indonesia, Malaysia, Myanmar, Philippines, Thailand, Timor-Leste, Vietnam) in the period from 1 July 2022 to 30 June 2023. The blocking was either confirmed by OONI measurements for existing blocking fingerprints, heuristics, i.e. for new blocking fingerprints as well as news reports of blocking orders, or user experiences. Most of these countries block specific content such as porn, gambling, or certain news pages. Interestingly the blocking in Hong Kong and Myanmar is focused on the military and governmental pages of foreign countries. Blocking is often realized by either DNS tampering or HTTP tampering. For DNS, either a decided IP address, a bogon IP address (127.0.0.1), or an empty domain (nxdomain) is used. In case of DNS tampering using a decided IP address or HTTP tampering some countries provide a block page that exposes the blocking, however, more transparency about blocking is requested by civil society organizations and the iMAP project.<a href="#section-2.3.1-1" class="pilcrow">¶</a></p>
-<p id="section-2.3.1-2"><span>[<a href="#GROVER" class="cite xref">GROVER</a>]</span> further focused the discussion on online censorship in India, Pakistan, and Indonesia. In India, where providers are responsible for implementing the blocking but no method is mandated, the six major ISPs (covering 98.82% of all subscribers) were tested on 4379 blocked websites (based on court orders, user reports, and publicly available or leaked government orders) on DNS poisoning/injection or HTTP/SNI-based censorship. Used censorship techniques and websites blocked were different across ISPs. Multiple ISPs used two different techniques (depending on the website), and all but one provided censorship notices. Providers blocked between 1892 to 3721 (of 4379) pages with only 1115 (27.64%) of pages blocked by all ISPs. <span>[<a href="#Singh2020" class="cite xref">Singh2020</a>]</span> In contrast, in Pakistan, the government can also order the IPSs to perform blocking and blocking has even been observed in the past on the IXP level. Since 2020, there has also a central Web Monitoring System deployed at lines of international connectivity. In Indonesia, initially, the government guided ISPs in how to perform the blocking. The regulations were updated in 2020 to allow Indonesian ISPs to block websites at their discretion. In 2022, there was a proposal by internet service providers to centralise DNS. In Indonesia, a partial block list is publicly available, but without any indication of why something is blocked. <span>[<a href="#Grover2023" class="cite xref">Grover2023</a>]</span><a href="#section-2.3.1-2" class="pilcrow">¶</a></p>
+<p id="section-2.3.1-2"><span>[<a href="#GROVER" class="cite xref">GROVER</a>]</span> further focused the discussion on online censorship in India, Pakistan, and Indonesia. In India, where providers are responsible for implementing the blocking but no method is mandated, the six major ISPs (covering 98.82% of all subscribers) were tested on 4379 blocked websites (based on court orders, user reports, and publicly available or leaked government orders) on DNS poisoning/injection or HTTP/SNI-based censorship. Used censorship techniques and websites blocked were different across ISPs. Multiple ISPs used two different techniques (depending on the website), and all but one provided censorship notices. Providers blocked between 1892 to 3721 (of 4379) pages with only 1115 (27.64%) of pages blocked by all ISPs. <span>[<a href="#Singh2020" class="cite xref">Singh2020</a>]</span> In contrast, in Pakistan, the government can also order the IPSs to perform blocking and blocking has even been observed in the past on the IXP level. Since 2020, there has also been a central Web Monitoring System deployed at lines of international connectivity. In Indonesia, initially, the government guided ISPs in how to perform the blocking. The regulations were updated in 2020 to allow Indonesian ISPs to block websites at their discretion. In 2022, there was a proposal by internet service providers to centralise DNS. In Indonesia, a partial block list is publicly available, but without any indication of why something is blocked. <span>[<a href="#Grover2023" class="cite xref">Grover2023</a>]</span><a href="#section-2.3.1-2" class="pilcrow">¶</a></p>
 <p id="section-2.3.1-3"><span>[<a href="#BASSO" class="cite xref">BASSO</a>]</span> reported that for Russia a high increase in additions to the Roskomnadzor’s block list was observed in March 2022 as well as in December 2022, foremost covering news pages but also covering human rights organizations and social media, where more than 3500 blocking orders were added to the list by an "Unknown body". Further, blocking of domains that are not in the official Roskomnadzor’s list has been observed as well.<a href="#section-2.3.1-3" class="pilcrow">¶</a></p>
 <p id="section-2.3.1-4">An invited talk presented the work in <span>[<a href="#WANG" class="cite xref">WANG</a>]</span> on locating censorship devices by using HTTP and TLS traceroutes, identifying device vendors through fingerprinting, and reverse-engineering censorship triggers by the use of fuzzing. E.g. for the case of Azerbaijan and Kazakhstan, they showed that a significant portion of measurements from remote countries are blocked at the endpoint, indicating local policies but connection resets are also happening in Belarus and Russia. Further, they could identify a set of commercial network devices (with filtering techniques such as firewalls) that are used in these countries for censorship and show how fuzzing can be used to fingerprint and cluster behaviours as well as potentially circumvent the deployed methods.<a href="#section-2.3.1-4" class="pilcrow">¶</a></p>
 <p id="section-2.3.1-5">All speakers called for more transparency by requiring blocking messages as well as publication and auditing of blocklists. Potentially even standardization could help.<a href="#section-2.3.1-5" class="pilcrow">¶</a></p>
@@ -1397,7 +1397,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
             <p id="section-2.4-2.7.1">Develop new VPN-like services and potentially support measurements to understand their deployment and use.<a href="#section-2.4-2.7.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="section-2.4-2.8">
-            <p id="section-2.4-2.8.1">Further discussion of these topics could happen in GAIA, HRPC, PEARG, and MAPRG based on the relevance to the research group. The community could also explore if a censorship (and its circumvention) focused group could be created.<a href="#section-2.4-2.8.1" class="pilcrow">¶</a></p>
+            <p id="section-2.4-2.8.1">Further discussion of these topics could happen in GAIA, HRPC, PEARG, and MAPRG based on the relevance to the research group. The management and operations-related discussion can be taken to OPSAWG. The community could also explore if a censorship (and its circumvention) focused group could be created.<a href="#section-2.4-2.8.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
 </section>
@@ -1512,28 +1512,28 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <p id="appendix-A-4">Community Networks:<a href="#appendix-A-4" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="appendix-A-5.1">
-          <p id="appendix-A-5.1.1">L. M. Martínez-Cervantes, R. Guevara-Martínez:    Community Networks and the Quest for Quality<a href="#appendix-A-5.1.1" class="pilcrow">¶</a></p>
+          <p id="appendix-A-5.1.1">L. M. Martínez-Cervantes, R. Guevara-Martínez:    Community Networks and the Quest for Quality <span>[<a href="#MARTINEZ" class="cite xref">MARTINEZ</a>]</span><a href="#appendix-A-5.1.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="appendix-A-5.2">
-          <p id="appendix-A-5.2.1">T. Benson, M. Fayed:  A ‘C’ in CDN: Access service to and from the Internet for community networks at-cost<a href="#appendix-A-5.2.1" class="pilcrow">¶</a></p>
+          <p id="appendix-A-5.2.1">T. Benson, M. Fayed:  A ‘C’ in CDN: Access service to and from the Internet for community networks at-cost <span>[<a href="#BENSON" class="cite xref">BENSON</a>]</span><a href="#appendix-A-5.2.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="appendix-A-5.3">
-          <p id="appendix-A-5.3.1">P. Hu:    Closing the Performance and Management Gaps with Satellite Internet: Challenges, Approaches, and Future Directions<a href="#appendix-A-5.3.1" class="pilcrow">¶</a></p>
+          <p id="appendix-A-5.3.1">P. Hu:    Closing the Performance and Management Gaps with Satellite Internet: Challenges, Approaches, and Future Directions <span>[<a href="#HU" class="cite xref">HU</a>]</span><a href="#appendix-A-5.3.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="appendix-A-5.4">
-          <p id="appendix-A-5.4.1">R. Rennó: Maximising Connectivity: The Spectrum's Vital Role in Technology Access<a href="#appendix-A-5.4.1" class="pilcrow">¶</a></p>
+          <p id="appendix-A-5.4.1">R. Rennó: Maximising Connectivity: The Spectrum's Vital Role in Technology Access <span>[<a href="#RENNO" class="cite xref">RENNO</a>]</span><a href="#appendix-A-5.4.1" class="pilcrow">¶</a></p>
 </li>
       </ul>
 <p id="appendix-A-6">Digital Divide:<a href="#appendix-A-6" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="appendix-A-7.1">
-          <p id="appendix-A-7.1.1">R. Holz, N. Nazemi, O. Tavallaie, A.Y. Zomaya:    Evidence for a digital divide? Measuring DNS dependencies in the context of the indigenous population of Australia<a href="#appendix-A-7.1.1" class="pilcrow">¶</a></p>
+          <p id="appendix-A-7.1.1">R. Holz, N. Nazemi, O. Tavallaie, A.Y. Zomaya:    Evidence for a digital divide? Measuring DNS dependencies in the context of the indigenous population of Australia <span>[<a href="#HOLZ" class="cite xref">HOLZ</a>]</span><a href="#appendix-A-7.1.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="appendix-A-7.2">
-          <p id="appendix-A-7.2.1">S. Hussain:   Universal Acceptance of Domain Names and Email Addresses: A Key to Digital Inclusion<a href="#appendix-A-7.2.1" class="pilcrow">¶</a></p>
+          <p id="appendix-A-7.2.1">S. Hussain:   Universal Acceptance of Domain Names and Email Addresses: A Key to Digital Inclusion <span>[<a href="#HUSSAIN" class="cite xref">HUSSAIN</a>]</span><a href="#appendix-A-7.2.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="appendix-A-7.3">
-          <p id="appendix-A-7.3.1">R. Habib, S. Tanveer, A. Inam, H. Ahmed, A. Ali, Z.A. Uzmi, Z.A. Qazi, I.A. Qazi: A Framework for Improving Web Affordability and Inclusiveness<a href="#appendix-A-7.3.1" class="pilcrow">¶</a></p>
+          <p id="appendix-A-7.3.1">R. Habib, S. Tanveer, A. Inam, H. Ahmed, A. Ali, Z.A. Uzmi, Z.A. Qazi, I.A. Qazi: A Framework for Improving Web Affordability and Inclusiveness <span>[<a href="#HABIB" class="cite xref">HABIB</a>]</span><a href="#appendix-A-7.3.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="appendix-A-7.4">
           <p id="appendix-A-7.4.1">J. Ott, G. Bartolomeo, M.M. Bese, R. Bose, M. Bosk, D. Guzman, L. Kärkkäinen, M. Kosek, N. Mohan: The Internet: Only for the Fast (and Furious)?<a href="#appendix-A-7.4.1" class="pilcrow">¶</a></p>
@@ -1545,19 +1545,19 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <p id="appendix-A-8">Censorship:<a href="#appendix-A-8" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="appendix-A-9.1">
-          <p id="appendix-A-9.1.1">S. Nurliza Samsudin:  iMAP (Internet Monitoring Action Project) 2023 Internet Censorship Report<a href="#appendix-A-9.1.1" class="pilcrow">¶</a></p>
+          <p id="appendix-A-9.1.1">S. Nurliza Samsudin:  iMAP (Internet Monitoring Action Project) 2023 Internet Censorship Report <span>[<a href="#SAMSUDIN" class="cite xref">SAMSUDIN</a>]</span><a href="#appendix-A-9.1.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="appendix-A-9.2">
-          <p id="appendix-A-9.2.1">G. Grover:    The infrastructure of censorship in Asia<a href="#appendix-A-9.2.1" class="pilcrow">¶</a></p>
+          <p id="appendix-A-9.2.1">G. Grover:    The infrastructure of censorship in Asia <span>[<a href="#Grover2023" class="cite xref">Grover2023</a>]</span><a href="#appendix-A-9.2.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="appendix-A-9.3">
-          <p id="appendix-A-9.3.1">S. Basso: How Internet censorship changed in Russia during the 1st year of military conflict in Ukraine<a href="#appendix-A-9.3.1" class="pilcrow">¶</a></p>
+          <p id="appendix-A-9.3.1">S. Basso: How Internet censorship changed in Russia during the 1st year of military conflict in Ukraine <span>[<a href="#BASSO" class="cite xref">BASSO</a>]</span><a href="#appendix-A-9.3.1" class="pilcrow">¶</a></p>
 </li>
       </ul>
 <p id="appendix-A-10">In addition to the submitted paper two invited talks were presented based on published papers:<a href="#appendix-A-10" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="appendix-A-11.1">
-          <p id="appendix-A-11.1.1">R. Sundara Raman, M. Wang, J. Dalek, J. Mayer, R. Ensafi: Network Measurement Methods for Locating and Examining Censorship Devices<a href="#appendix-A-11.1.1" class="pilcrow">¶</a></p>
+          <p id="appendix-A-11.1.1">R. Sundara Raman, M. Wang, J. Dalek, J. Mayer, R. Ensafi: Network Measurement Methods for Locating and Examining Censorship Devices <span>[<a href="#WANG" class="cite xref">WANG</a>]</span><a href="#appendix-A-11.1.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="appendix-A-11.2">
           <p id="appendix-A-11.2.1">R. Ramesh, A. Vyas, R. Ensafi:    “All of them claim to be the best”: A multi-perspective study of VPN users and VPN providers<a href="#appendix-A-11.2.1" class="pilcrow">¶</a></p>

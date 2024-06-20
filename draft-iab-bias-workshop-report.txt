@@ -5,9 +5,9 @@
 Network Working Group                                       M. Kühlewind
 Internet-Draft                                                          
 Intended status: Informational                                  D. Dhody
-Expires: 29 November 2024                                               
+Expires: 22 December 2024                                               
                                                                M. Knodel
-                                                             28 May 2024
+                                                            20 June 2024
 
 
    IAB Barriers to Internet Access of Services (BIAS) Workshop Report
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 29 November 2024.
+   This Internet-Draft will expire on 22 December 2024.
 
 Copyright Notice
 
@@ -266,14 +266,14 @@ Table of Contents
 2.2.1.  Disparities in service provision
 
    Ralph Holz presented research that exposes the more limited DNS-
-   mediated access to government websites by indigenous communities in
+   mediated access to government websites by Indigenous communities in
    Australia as compared to less disadvantaged users in the same
    population in "Evidence for a digital divide?  Measuring DNS
-   dependencies in the context of the indigenous population of
+   dependencies in the context of the Indigenous population of
    Australia".  [HOLZ] DNS dependency trends were analysed between two
    lists of domains serving Australian government sites for Indigenous
    users and the general population.  Researchers found, "evidence that
-   dependencies for the indigenous population are indeed differently
+   dependencies for the Indigenous population are indeed differently
    configured," indicative of a difference in service provisioning.
    However qualitative follow-up research is needed to interrogate both
    the potential reasons for these differences and whether the
@@ -382,14 +382,15 @@ Table of Contents
    (of 4379) pages with only 1115 (27.64%) of pages blocked by all ISPs.
    [Singh2020] In contrast, in Pakistan, the government can also order
    the IPSs to perform blocking and blocking has even been observed in
-   the past on the IXP level.  Since 2020, there has also a central Web
-   Monitoring System deployed at lines of international connectivity.
-   In Indonesia, initially, the government guided ISPs in how to perform
-   the blocking.  The regulations were updated in 2020 to allow
-   Indonesian ISPs to block websites at their discretion.  In 2022,
-   there was a proposal by internet service providers to centralise DNS.
-   In Indonesia, a partial block list is publicly available, but without
-   any indication of why something is blocked.  [Grover2023]
+   the past on the IXP level.  Since 2020, there has also been a central
+   Web Monitoring System deployed at lines of international
+   connectivity.  In Indonesia, initially, the government guided ISPs in
+   how to perform the blocking.  The regulations were updated in 2020 to
+   allow Indonesian ISPs to block websites at their discretion.  In
+   2022, there was a proposal by internet service providers to
+   centralise DNS.  In Indonesia, a partial block list is publicly
+   available, but without any indication of why something is blocked.
+   [Grover2023]
 
    [BASSO] reported that for Russia a high increase in additions to the
    Roskomnadzor’s block list was observed in March 2022 as well as in
@@ -470,7 +471,8 @@ Table of Contents
 
    *  Further discussion of these topics could happen in GAIA, HRPC,
       PEARG, and MAPRG based on the relevance to the research group.
-      The community could also explore if a censorship (and its
+      The management and operations-related discussion can be taken to
+      OPSAWG.  The community could also explore if a censorship (and its
       circumvention) focused group could be created.
 
 3.  Informative References
@@ -609,29 +611,29 @@ Appendix A.  Position Papers
    Community Networks:
 
    *  L.  M.  Martínez-Cervantes, R.  Guevara-Martínez: Community
-      Networks and the Quest for Quality
+      Networks and the Quest for Quality [MARTINEZ]
 
    *  T.  Benson, M.  Fayed: A ‘C’ in CDN: Access service to and from
-      the Internet for community networks at-cost
+      the Internet for community networks at-cost [BENSON]
 
    *  P.  Hu: Closing the Performance and Management Gaps with Satellite
-      Internet: Challenges, Approaches, and Future Directions
+      Internet: Challenges, Approaches, and Future Directions [HU]
 
    *  R.  Rennó: Maximising Connectivity: The Spectrum's Vital Role in
-      Technology Access
+      Technology Access [RENNO]
 
    Digital Divide:
 
    *  R.  Holz, N.  Nazemi, O.  Tavallaie, A.Y.  Zomaya: Evidence for a
       digital divide?  Measuring DNS dependencies in the context of the
-      indigenous population of Australia
+      indigenous population of Australia [HOLZ]
 
    *  S.  Hussain: Universal Acceptance of Domain Names and Email
-      Addresses: A Key to Digital Inclusion
+      Addresses: A Key to Digital Inclusion [HUSSAIN]
 
    *  R.  Habib, S.  Tanveer, A.  Inam, H.  Ahmed, A.  Ali, Z.A.  Uzmi,
       Z.A.  Qazi, I.A.  Qazi: A Framework for Improving Web
-      Affordability and Inclusiveness
+      Affordability and Inclusiveness [HABIB]
 
    *  J.  Ott, G.  Bartolomeo, M.M.  Bese, R.  Bose, M.  Bosk, D.
       Guzman, L.  Kärkkäinen, M.  Kosek, N.  Mohan: The Internet: Only
@@ -642,19 +644,19 @@ Appendix A.  Position Papers
    Censorship:
 
    *  S.  Nurliza Samsudin: iMAP (Internet Monitoring Action Project)
-      2023 Internet Censorship Report
+      2023 Internet Censorship Report [SAMSUDIN]
 
-   *  G.  Grover: The infrastructure of censorship in Asia
+   *  G.  Grover: The infrastructure of censorship in Asia [Grover2023]
 
    *  S.  Basso: How Internet censorship changed in Russia during the
-      1st year of military conflict in Ukraine
+      1st year of military conflict in Ukraine [BASSO]
 
    In addition to the submitted paper two invited talks were presented
    based on published papers:
 
    *  R.  Sundara Raman, M.  Wang, J.  Dalek, J.  Mayer, R.  Ensafi:
       Network Measurement Methods for Locating and Examining Censorship
-      Devices
+      Devices [WANG]
 
    *  R.  Ramesh, A.  Vyas, R.  Ensafi: “All of them claim to be the
       best”: A multi-perspective study of VPN users and VPN providers
