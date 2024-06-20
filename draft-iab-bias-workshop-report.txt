@@ -15,7 +15,7 @@ Expires: 22 December 2024
 
 Abstract
 
-   The “Barriers for Internet Access of Services (Bias)” workshop was
+   The "Barriers for Internet Access of Services (BIAS)" workshop was
    convened by the Internet Architecture Board (IAB) from January 15-17,
    2024 as a three-day online meeting.  Based on the submitted position
    papers, the workshop covered three areas of interest: the role of
