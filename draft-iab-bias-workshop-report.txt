@@ -5,9 +5,9 @@
 Network Working Group                                       M. Kühlewind
 Internet-Draft                                                          
 Intended status: Informational                                  D. Dhody
-Expires: 22 December 2024                                               
+Expires: 4 January 2025                                                 
                                                                M. Knodel
-                                                            20 June 2024
+                                                             3 July 2024
 
 
    IAB Barriers to Internet Access of Services (BIAS) Workshop Report
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 22 December 2024.
+   This Internet-Draft will expire on 4 January 2025.
 
 Copyright Notice
 
@@ -568,8 +568,9 @@ Table of Contents
 
    [SAMSUDIN] Samsudin, S., "iMAP (Internet Monitoring Action Project)
               2023 Internet Censorship Report", January 2024,
-              <https://www.ietf.org/slides/slides-biasws-position-paper-
-              by-raquel-renno-01.pdf>.
+              <https://www.ietf.org/slides/slides-biasws-imap-internet-
+              monitoring-action-project-internet-censorship-report-
+              02.pdf>.
 
    [SDG]      "Sustainable Development Goals", n.d.,
               <https://sdgs.un.org/goals>.
