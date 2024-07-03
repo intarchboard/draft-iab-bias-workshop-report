@@ -93,7 +93,7 @@ informative:
     target: https://www.irtf.org/gaia.html
     title: Global Access to the Internet for All Research Group
   SAMSUDIN:
-    target: https://www.ietf.org/slides/slides-biasws-position-paper-by-raquel-renno-01.pdf
+    target: https://www.ietf.org/slides/slides-biasws-imap-internet-monitoring-action-project-internet-censorship-report-02.pdf
     title: iMAP (Internet Monitoring Action Project) 2023 Internet Censorship Report
     author:
       -
