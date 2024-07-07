@@ -134,7 +134,7 @@ informative:
         name: Varun Bansal
     date: July 2020
   BASSO:
-    target: https://datatracker.ietf.org/meeting/interim-2024-biasws-03/materials/slides-interim-2024-biasws-03-sessa-online-censorship-in-india-pakistan-and-indonesia-00
+    target: https://datatracker.ietf.org/meeting/interim-2024-biasws-03/materials/slides-interim-2024-biasws-03-sessa-slide-how-internet-censorship-changed-in-russia-during-the-1st-year-of-military-conflict-in-ukraine-00.pdf
     title: How Internet censorship changed in Russia during the 1st year of military conflict in Ukraine
     author:
       -
