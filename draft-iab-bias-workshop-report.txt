@@ -5,9 +5,9 @@
 Network Working Group                                       M. Kühlewind
 Internet-Draft                                                          
 Intended status: Informational                                  D. Dhody
-Expires: 4 January 2025                                                 
+Expires: 8 January 2025                                                 
                                                                M. Knodel
-                                                             3 July 2024
+                                                             7 July 2024
 
 
    IAB Barriers to Internet Access of Services (BIAS) Workshop Report
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 4 January 2025.
+   This Internet-Draft will expire on 8 January 2025.
 
 Copyright Notice
 
@@ -484,8 +484,9 @@ Table of Contents
               during the 1st year of military conflict in Ukraine",
               January 2024, <https://datatracker.ietf.org/meeting/
               interim-2024-biasws-03/materials/slides-interim-2024-
-              biasws-03-sessa-online-censorship-in-india-pakistan-and-
-              indonesia-00>.
+              biasws-03-sessa-slide-how-internet-censorship-changed-in-
+              russia-during-the-1st-year-of-military-conflict-in-
+              ukraine-00.pdf>.
 
    [BENSON]   Benson, T. A. and M. Fayed, "A ‘C’ in CDN - Access service
               to and from the Internet at cost for community networks",
