@@ -142,7 +142,7 @@ informative:
         name: Simone Basso
     date: January 2024
   WANG:
-    target: https://datatracker.ietf.org/meeting/interim-2024-biasws-03/materials/slides-interim-2024-biasws-03-sessa-online-censorship-in-india-pakistan-and-indonesia-00
+    target: https://datatracker.ietf.org/meeting/interim-2024-biasws-03/materials/slides-interim-2024-biasws-03-sessa-network-measurement-methods-for-locating-and-examining-censorship-devices-00.pdf
     title: Network Measurement Methods for Locating and Examining Censorship Devices
     author:
       -
